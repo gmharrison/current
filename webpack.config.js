@@ -5,6 +5,10 @@ var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
     filename: 'index.html',
     inject: 'body'
 });
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const extractSass = new ExtractTextPlugin({
+    filename: "build.css",
+});
 
 module.exports = {
     // target: 'node',
@@ -15,12 +19,28 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader'
-            }
+            },
+            {
+              test: /\.scss$/,
+              use: extractSass.extract({
+                    use: [{
+                        loader: "css-loader?url=false"
+                    }, {
+                        loader: "sass-loader"
+                    }],
+                    // use style-loader in development
+                    fallback: "style-loader",
+
+                })
+            },
         ]
     },
     output: {
         filename: 'build.js',
         path: __dirname + '/build'
     },
-    plugins: [HTMLWebpackPluginConfig]
+    plugins: [
+        HTMLWebpackPluginConfig,
+        new ExtractTextPlugin("pockettees.scss"),
+        extractSass]
 }

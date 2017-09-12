@@ -3,8 +3,10 @@ import React from 'react';
 export default class App extends React.Component {
     render () {
         return (
-            <div>
-                <h3>Pocket Tee's!</h3>
+            <div className="container">
+                <div className="border">
+                    <h1>put it in my pocket</h1>
+                </div>
             </div>
         )
     }
