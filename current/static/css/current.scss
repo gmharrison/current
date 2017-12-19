@@ -1,0 +1,10 @@
+@import './modules/variables';
+@import './components/shapes';
+@import './components/text';
+@import './components/charts';
+
+body {
+  background-color: white;
+  font-family: "Lato";
+  margin: 0;
+}

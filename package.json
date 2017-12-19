@@ -1,5 +1,5 @@
 {
-  "name": "pockettees",
+  "name": "current",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,19 +13,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gmharrison/pockettees.git"
+    "url": "git+https://github.com/gmharrison/current.git"
   },
   "author": "Gabrielle Harrison",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gmharrison/pockettees/issues"
+    "url": "https://github.com/gmharrison/current/issues"
   },
-  "homepage": "https://github.com/gmharrison/pockettees#readme",
+  "homepage": "https://github.com/gmharrison/current#readme",
   "dependencies": {
+    "d3-array": "^1.2.1",
+    "d3-axis": "^1.0.8",
+    "d3-brush": "^1.0.4",
+    "d3-geo": "^1.9.1",
+    "d3-scale": "^1.0.7",
+    "d3-selection": "^1.2.0",
+    "d3-shape": "^1.2.0",
+    "d3-svg-legend": "^2.25.3",
+    "d3-transition": "^1.1.1",
     "express": "^4.15.4",
     "extract-text-webpack-plugin": "^3.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^15.6.2",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^15.6.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

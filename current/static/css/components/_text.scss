@@ -1,0 +1,46 @@
+.header {
+  padding: 0;
+  margin: 0 0 250px 0;
+
+  .row {
+    margin: 0;
+  }
+}
+
+.title-container {
+  position: relative;
+  z-index: 1;
+  padding: 150px 0 0 0;
+  font-weight: 400;
+  color: $light-blue;
+
+  h1 {
+    font-size: 34px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: $light-blue;
+  }
+}
+
+h2 {
+  color: $dark-blue;
+}
+
+p.body-text {
+  color: $dark-blue;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.topic-header {
+  position: relative;
+}
+
+.circle h3 {
+  color: $dark-gray;
+  margin: 11px 0 0 0;
+  text-align: center;
+}

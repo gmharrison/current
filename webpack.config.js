@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-    template: __dirname + '/pockettees/index.html',
+    template: __dirname + '/current/index.html',
     filename: 'index.html',
     inject: 'body'
 });
@@ -12,7 +12,7 @@ const extractSass = new ExtractTextPlugin({
 
 module.exports = {
     // target: 'node',
-    entry: __dirname + '/pockettees/index.js',
+    entry: __dirname + '/current/index.js',
     module: {
         loaders: [
             {
@@ -41,6 +41,6 @@ module.exports = {
     },
     plugins: [
         HTMLWebpackPluginConfig,
-        new ExtractTextPlugin("pockettees.scss"),
+        new ExtractTextPlugin("current.scss"),
         extractSass]
 }

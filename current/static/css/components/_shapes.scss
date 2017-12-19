@@ -1,0 +1,35 @@
+.wave-one {
+  position: absolute;
+  top: -20;
+  width: 100%;
+}
+
+.right-line{
+  border: 1px solid $light-blue;
+  height: 150px;
+  width: 0;
+  position: absolute;
+  right: 50px;
+  top: 170px;
+  z-index: 1;
+}
+
+.left-line{
+  border: 1px solid $light-blue;
+  height: 100px;
+  width: 0;
+  position: absolute;
+  left: -55px;
+  top: 65px;
+  z-index: 1;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: $super-light-blue;
+  border: 1px solid $border-blue;
+  position: absolute;
+  left: -80;
+}
