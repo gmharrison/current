@@ -1,7 +1,5 @@
-.wave-one {
-  position: absolute;
-  top: -20;
-  width: 100%; }
+.cover-image {
+  padding: 100px 0 150px 0; }
 
 .right-line {
   border: 1px solid #d8e2f3;
@@ -30,16 +28,22 @@
   position: absolute;
   left: -80; }
 
+.chart-container {
+  margin-top: 30px;
+  padding: 30px;
+  background: #eff4fb;
+  border: 1px solid #c1dae5;
+  border-radius: 6px; }
+
 .header {
-  padding: 0;
-  margin: 0 0 250px 0; }
+  padding: 0; }
   .header .row {
     margin: 0; }
 
 .title-container {
   position: relative;
   z-index: 1;
-  padding: 150px 0 0 0;
+  padding: 0;
   font-weight: 400;
   color: #d8e2f3; }
   .title-container h1 {

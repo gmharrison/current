@@ -1,6 +1,7 @@
 import React from 'react';
-import {TopWave} from "./svgs";
-import BarChart from "./charts";
+import {FirstChart, TopWave} from "./svgs";
+import Wave from '!file-loader!../static/img/wave.svg'
+
 
 export default class App extends React.Component {
     render () {
@@ -16,21 +17,22 @@ export default class App extends React.Component {
 export class Header extends React.Component {
     render() {
         return (
-            <div className="header container-fluid">
-                <div className="row">
-                    <div className="col-md-5 col-md-offset-1">
-                        <div className="title-container">
-                            <h1>Current Multi-Media Platform</h1>
-                            <p className="subtitle">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                            </p>
+            <div className="cover-image" style={{backgroundImage:`url(${Wave})`,backgroundSize:'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat'}}>
+                <div className="header container-fluid">
+                    <div className="row">
+                        <div className="col-md-5 col-md-offset-1">
+                            <div className="title-container">
+                                <h1>Current Multi-Media Platform</h1>
+                                <p className="subtitle">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                    tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <div className="right-line">
+                    </div>
                 </div>
-                <div className="right-line">
-                </div>
-                <TopWave/>
             </div>
         )
     }
@@ -56,7 +58,13 @@ export class Market extends React.Component {
                         </p>
                     </div>
                 </div>
-                <BarChart data={[142,61,30,8,82,4,175,2]} size={[500,500]}/>
+                <div className="row">
+                    <div className="col-md-6 col-md-offset-3">
+                        <div className="chart-container">
+                            <FirstChart/>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

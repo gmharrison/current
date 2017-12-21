@@ -1,7 +1,5 @@
-.wave-one {
-  position: absolute;
-  top: -20;
-  width: 100%;
+.cover-image {
+  padding: 100px 0 150px 0;
 }
 
 .right-line{
@@ -32,4 +30,12 @@
   border: 1px solid $border-blue;
   position: absolute;
   left: -80;
+}
+
+.chart-container {
+  margin-top: 30px;
+  padding: 30px;
+  background: $super-light-blue;
+  border: 1px solid $border-blue;
+  border-radius: 6px;
 }

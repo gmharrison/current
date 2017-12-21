@@ -10,6 +10,8 @@ const extractSass = new ExtractTextPlugin({
     filename: "build.css",
 });
 
+var CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
     // target: 'node',
     entry: __dirname + '/current/index.js',
@@ -33,6 +35,18 @@ module.exports = {
 
                 })
             },
+            {
+              test: /\.svg$/,
+              loaders: [
+                'babel-loader',
+                {
+                  loader: 'react-svg-loader',
+                  query: {
+                    jsx: true
+                  }
+                },
+              ]
+            },
         ]
     },
     output: {
@@ -42,5 +56,9 @@ module.exports = {
     plugins: [
         HTMLWebpackPluginConfig,
         new ExtractTextPlugin("current.scss"),
-        extractSass]
+        extractSass,
+        // new CopyWebpackPlugin([
+        //     {from:'current/static/img/',to:'images'}
+        // ])
+    ]
 }
