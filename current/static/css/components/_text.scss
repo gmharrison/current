@@ -1,5 +1,6 @@
 .header {
   padding: 0;
+
   .row {
     margin: 0;
   }
@@ -23,12 +24,34 @@
   }
 }
 
-h2 {
+h2, h5 {
   color: $dark-blue;
+}
+
+h5 {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.blue-container h5 {
+  color: $dark-gray;
 }
 
 p.body-text {
   color: $dark-blue;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+p.light-text {
+  color: $dark-gray;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+p.white-text{
+  color: white;
+  margin: 30px 0;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -41,4 +64,44 @@ p.body-text {
   color: $dark-gray;
   margin: 11px 0 0 0;
   text-align: center;
+}
+
+.solution {
+  margin-top: 30px;
+}
+
+.cycle-step {
+
+  text-align: center;
+}
+
+#step-one {
+  position: absolute;
+  top: -25;
+  margin: 0 auto;
+  width: 40%;
+  left: 0;
+  right: 0;
+}
+
+#step-two {
+  float: left;
+}
+
+#step-three {
+  float: right;
+}
+
+.content h2{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.header-container {
+  padding: 100px 0 0 0;
+}
+
+.scroll-container{
+  overflow: scroll;
 }

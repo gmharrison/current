@@ -1,5 +1,19 @@
-.cover-image {
-  padding: 100px 0 150px 0; }
+.background-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+#cover-image {
+  padding: 100px 0 230px 0; }
+
+#wave-3 {
+  padding: 50px 0 200px 0;
+  background-position: -50px 0;
+  background-size: 105%; }
+
+@media screen and (min-width: 1152px) {
+  #cover-image {
+    background-position: center -65px; } }
 
 .right-line {
   border: 1px solid #d8e2f3;
@@ -28,12 +42,27 @@
   position: absolute;
   left: -80; }
 
-.chart-container {
+.blue-container {
   margin-top: 30px;
   padding: 30px;
   background: #eff4fb;
   border: 1px solid #c1dae5;
   border-radius: 6px; }
+  .blue-container.text {
+    padding: 20px; }
+
+.scroll-container {
+  width: 100%; }
+  .scroll-container .blue-container {
+    text-align: center;
+    width: 50%;
+    margin: 0 20px;
+    flex: 0 0 auto; }
+
+.flex {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap; }
 
 .header {
   padding: 0; }
@@ -53,11 +82,29 @@
     font-size: 18px;
     color: #d8e2f3; }
 
-h2 {
+h2, h5 {
   color: #293171; }
+
+h5 {
+  text-transform: uppercase;
+  margin: 0 0 10px 0; }
+
+.blue-container h5 {
+  color: #73859e; }
 
 p.body-text {
   color: #293171;
+  font-weight: 300;
+  line-height: 1.6; }
+
+p.light-text {
+  color: #73859e;
+  margin-bottom: 0;
+  font-weight: 300; }
+
+p.white-text {
+  color: white;
+  margin: 30px 0;
   font-weight: 300;
   line-height: 1.6; }
 
@@ -69,15 +116,42 @@ p.body-text {
   margin: 11px 0 0 0;
   text-align: center; }
 
-svg > rect:nth-child(2),
-svg > rect:nth-child(3),
-svg > rect:nth-child(4),
-svg > rect:nth-child(6),
-svg > rect:nth-child(8) {
-  fill: #7ec891; }
+.solution {
+  margin-top: 30px; }
 
-svg > rect {
-  fill: #c2dae4; }
+.cycle-step {
+  text-align: center; }
+
+#step-one {
+  position: absolute;
+  top: -25;
+  margin: 0 auto;
+  width: 40%;
+  left: 0;
+  right: 0; }
+
+#step-two {
+  float: left; }
+
+#step-three {
+  float: right; }
+
+.content h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px; }
+
+.header-container {
+  padding: 100px 0 0 0; }
+
+.scroll-container {
+  overflow: scroll; }
+
+.diagram-container {
+  position: relative;
+  margin-top: 30px; }
+  .diagram-container > .row {
+    margin: -80px -80px 30px -80px; }
 
 body {
   background-color: white;

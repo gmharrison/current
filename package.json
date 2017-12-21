@@ -39,6 +39,7 @@
     "react": "^15.6.2",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^15.6.2",
+    "react-svg-converter": "^1.0.2",
     "react-svg-loader": "^2.1.0",
     "svg-react-loader": "^0.4.5"
   },

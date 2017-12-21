@@ -1,5 +1,23 @@
-.cover-image {
-  padding: 100px 0 150px 0;
+.background-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#cover-image {
+  padding: 100px 0 230px 0;
+}
+
+#wave-3 {
+  padding: 50px 0 200px 0;
+  background-position: -50px 0;
+  background-size: 105%;
+}
+
+@media screen and (min-width: 1152px){
+  #cover-image {
+    background-position: center -65px;
+  }
 }
 
 .right-line{
@@ -32,10 +50,31 @@
   left: -80;
 }
 
-.chart-container {
+.blue-container {
   margin-top: 30px;
   padding: 30px;
   background: $super-light-blue;
   border: 1px solid $border-blue;
   border-radius: 6px;
+
+  &.text {
+    padding: 20px;
+  }
+}
+
+.scroll-container {
+  width: 100%;
+
+  .blue-container {
+    text-align: center;
+    width: 50%;
+    margin: 0 20px;
+    flex: 0 0 auto;
+  }
+}
+
+.flex {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
 }
