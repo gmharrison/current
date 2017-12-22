@@ -3,6 +3,7 @@ import {FirstChart, SecondChart, TopWave, Cycle} from "./svgs";
 import Wave from '!file-loader!../static/img/wave.svg'
 import Whale from '../static/img/whale.svg'
 import Wave3 from '!file-loader!../static/img/wave3.svg'
+import Wave4 from '!file-loader!../static/img/wave4.svg'
 import Unlock from '!file-loader!../static/img/unlock1.svg'
 
 export const list = [{
@@ -28,6 +29,8 @@ export default class App extends React.Component {
                 <Solution />
                 <Purchase />
                 <Content />
+                <Data />
+                <Sources />
             </div>
         )
     }
@@ -272,4 +275,91 @@ export class UnlockBox extends React.Component {
                 </div>
             )
         }
+}
+
+export class Data extends React.Component{
+    render(){
+        return (
+            <div className="data container-fluid">
+                <div className="row">
+                    <div className="col-md-6 col-md-offset-3">
+                        <div className="topic-header">
+                            <div className="circle"><h3>3</h3></div>
+                            <div className="left-line"></div>
+                            <h2>Aggregation of Data</h2>
+                        </div>
+                        <p className="body-text">
+                            Access to unique, valuable consumer data (location, age, consumer habits) – purchases vs
+                            streams, pre-orders, physical/merchandise, concert streams, ticket sales. Available to
+                            artists, labels, publishers, sponsors for better understanding of base & trends.  Metrics
+                            from the platform can be further monetized.
+                            <br /> <br />
+                            Pay model would take % of per item sale to apply toward streaming royalties. Can charge a
+                            premium for downloads, if they are platform agnostic.  With purchase tied to access, there
+                            is always an incentive for more purchases, creating a positive loop within the platform ecosystem.
+                            <br /> <br />
+                            Brands and multi-media content coexist on the platform, targeting users with recommendations,
+                            and advertisements meshed streaming content.  Capitalize by curating their own content,
+                            establish their own pricing, collecting and using consumer data to individualize the user
+                            experience with their media, further driving consumption.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export class Sources extends React.Component {
+    render(){
+        return (
+            <div className="background-image" id="wave-4" style={{backgroundImage:`url(${Wave4})`}}>
+                <div className="sources container-fluid">
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3">
+                            <div className="topic-header">
+                                <div className="circle"><h3>4</h3></div>
+                                <div className="left-line"></div>
+                                <h2>Additional Sources</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3">
+                            <div className="col-md-6">
+                                <div className="blue-container">
+                                    <a href="https://www.youtube.com/watch?v=8U8Iku1Ov2Q">Jimmy Iovine Interview</a>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="blue-container">
+                                    <a href="https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp">
+                                        How Does Spotify Make Money?
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3">
+                            <div className="col-md-6">
+                                <div className="blue-container">
+                                    <a href="https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth">
+                                        The Music Industry Is Finally Making Moneyon Streaming
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="blue-container">
+                                    <a href="https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699">
+                                        Streaming Music Services, From Most Screwed to Least Screwed
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
 }

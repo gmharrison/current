@@ -22091,7 +22091,7 @@ module.exports = ReactDOMInvalidARIAHook;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.UnlockBox = exports.Content = exports.Purchase = exports.Solution = exports.Market = exports.Header = exports.list = undefined;
+exports.Sources = exports.Data = exports.UnlockBox = exports.Content = exports.Purchase = exports.Solution = exports.Market = exports.Header = exports.list = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -22112,6 +22112,10 @@ var _whale2 = _interopRequireDefault(_whale);
 var _wave3 = __webpack_require__(200);
 
 var _wave4 = _interopRequireDefault(_wave3);
+
+var _wave5 = __webpack_require__(204);
+
+var _wave6 = _interopRequireDefault(_wave5);
 
 var _unlock = __webpack_require__(203);
 
@@ -22155,7 +22159,9 @@ var App = function (_React$Component) {
                 _react2.default.createElement(Market, null),
                 _react2.default.createElement(Solution, null),
                 _react2.default.createElement(Purchase, null),
-                _react2.default.createElement(Content, null)
+                _react2.default.createElement(Content, null),
+                _react2.default.createElement(Data, null),
+                _react2.default.createElement(Sources, null)
             );
         }
     }]);
@@ -22606,6 +22612,189 @@ var UnlockBox = exports.UnlockBox = function (_React$Component7) {
     }]);
 
     return UnlockBox;
+}(_react2.default.Component);
+
+var Data = exports.Data = function (_React$Component8) {
+    _inherits(Data, _React$Component8);
+
+    function Data() {
+        _classCallCheck(this, Data);
+
+        return _possibleConstructorReturn(this, (Data.__proto__ || Object.getPrototypeOf(Data)).apply(this, arguments));
+    }
+
+    _createClass(Data, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'data container-fluid' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'row' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'col-md-6 col-md-offset-3' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'topic-header' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'circle' },
+                                _react2.default.createElement(
+                                    'h3',
+                                    null,
+                                    '3'
+                                )
+                            ),
+                            _react2.default.createElement('div', { className: 'left-line' }),
+                            _react2.default.createElement(
+                                'h2',
+                                null,
+                                'Aggregation of Data'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'body-text' },
+                            'Access to unique, valuable consumer data (location, age, consumer habits) \u2013 purchases vs streams, pre-orders, physical/merchandise, concert streams, ticket sales. Available to artists, labels, publishers, sponsors for better understanding of base & trends.  Metrics from the platform can be further monetized.',
+                            _react2.default.createElement('br', null),
+                            ' ',
+                            _react2.default.createElement('br', null),
+                            'Pay model would take % of per item sale to apply toward streaming royalties. Can charge a premium for downloads, if they are platform agnostic.  With purchase tied to access, there is always an incentive for more purchases, creating a positive loop within the platform ecosystem.',
+                            _react2.default.createElement('br', null),
+                            ' ',
+                            _react2.default.createElement('br', null),
+                            'Brands and multi-media content coexist on the platform, targeting users with recommendations, and advertisements meshed streaming content.  Capitalize by curating their own content, establish their own pricing, collecting and using consumer data to individualize the user experience with their media, further driving consumption.'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Data;
+}(_react2.default.Component);
+
+var Sources = exports.Sources = function (_React$Component9) {
+    _inherits(Sources, _React$Component9);
+
+    function Sources() {
+        _classCallCheck(this, Sources);
+
+        return _possibleConstructorReturn(this, (Sources.__proto__ || Object.getPrototypeOf(Sources)).apply(this, arguments));
+    }
+
+    _createClass(Sources, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                { className: 'background-image', id: 'wave-4', style: { backgroundImage: 'url(' + _wave6.default + ')' } },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'sources container-fluid' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-6 col-md-offset-3' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'topic-header' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'circle' },
+                                    _react2.default.createElement(
+                                        'h3',
+                                        null,
+                                        '4'
+                                    )
+                                ),
+                                _react2.default.createElement('div', { className: 'left-line' }),
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Additional Sources'
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-6 col-md-offset-3' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'col-md-6' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'blue-container' },
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://www.youtube.com/watch?v=8U8Iku1Ov2Q' },
+                                        'Jimmy Iovine Interview'
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'col-md-6' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'blue-container' },
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp' },
+                                        'How Does Spotify Make Money?'
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-6 col-md-offset-3' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'col-md-6' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'blue-container' },
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth' },
+                                        'The Music Industry Is Finally Making Moneyon Streaming'
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'col-md-6' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'blue-container' },
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: 'https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699' },
+                                        'Streaming Music Services, From Most Screwed to Least Screwed'
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Sources;
 }(_react2.default.Component);
 
 /***/ }),
@@ -23389,6 +23578,12 @@ module.exports = __webpack_require__.p + "338cca2f322f8180657e52c6cc09b042.svg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "8346d99ee33f7def1f32bd0a9ad9fb2b.svg";
+
+/***/ }),
+/* 204 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "82095c9040fa3e1311e398e7d35e53a1.svg";
 
 /***/ })
 /******/ ]);

@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375.58 282.39">
+  <defs>
+    <linearGradient id="linear-gradient" x1="180.71" y1="-160.05" x2="180.71" y2="222.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6181c0"/>
+      <stop offset="0.04" stop-color="#5d7ebe"/>
+      <stop offset="0.37" stop-color="#4066b0"/>
+      <stop offset="0.39" stop-color="#3d61ad"/>
+      <stop offset="0.55" stop-color="#2b479c"/>
+      <stop offset="0.65" stop-color="#243d96"/>
+      <stop offset="1" stop-color="#293072"/>
+    </linearGradient>
+  </defs>
+  <title>wave4</title>
+  <path d="M-5.5,131S-18.81,85.19,31.74,82.41c35-1.93,61.58,29,115,3.19,50-24.15,68.63-30.8,127.54-9.93,47,16.66,64.92,52.78,93.08,42.81L368.5,315s-45.56,63.38-108.92,7.65S192.12,325,112.34,310.92C69,303.28-6.5,279-6.5,279Z" transform="translate(7.08 -63.19)" style="fill: url(#linear-gradient)"/>
+</svg>
