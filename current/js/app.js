@@ -42,7 +42,7 @@ export class Header extends React.Component {
             <div className="background-image" id="cover-image" style={{backgroundImage:`url(${Wave})`}}>
                 <div className="header container-fluid">
                     <div className="row">
-                        <div className="col-md-5 col-md-offset-1 col-sm-6">
+                        <div className="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-2">
                             <div className="title-container">
                                 <h1>Current Multi-Media Platform</h1>
                                 <p className="subtitle">
@@ -64,7 +64,7 @@ export class Market extends React.Component {
         return (
             <div className="market container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="topic-header">
                             <div className="circle"><h3>1</h3></div>
                             <div className="left-line"></div>
@@ -80,14 +80,14 @@ export class Market extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="blue-container">
                             <FirstChart/>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="blue-container">
                             <SecondChart/>
                         </div>
@@ -103,7 +103,7 @@ export class Solution extends React.Component {
         return (
             <div className="solution container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="topic-header">
                             <div className="circle"><h3>2</h3></div>
                             <div className="left-line"></div>
@@ -139,7 +139,7 @@ export class Solution extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="col-sm-6">
                             <div className="blue-container text">
                                 <h5>Blue Ocean Strategy</h5>
@@ -178,7 +178,7 @@ export class Purchase extends React.Component{
         return (
             <div className="purchase container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="diagram-container">
                             <div className="cycle-step" id="step-one">
                                 <h5>Purchase</h5>
@@ -189,7 +189,7 @@ export class Purchase extends React.Component{
                             </div>
                             <Cycle/>
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-sm-3">
                                 <div className="cycle-step" id="step-three">
                                     <h5>Exposure</h5>
                                     <p className="body-text">
@@ -200,7 +200,7 @@ export class Purchase extends React.Component{
                                     </p>
                                 </div>
                                 </div>
-                                <div className="col-md-4 col-md-offset-4">
+                                <div className="col-md-4 col-md-offset-4 col-sm-3 col-sm-offset-2">
                                 <div className="cycle-step" id="step-two">
                                     <h5>Streaming</h5>
                                     <p className="body-text">
@@ -224,21 +224,21 @@ export class Content extends React.Component {
             <div className="background-image" id="wave-3" style={{backgroundImage:`url(${Wave3})`}}>
                 <div className="content container-fluid">
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3">
+                        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                             <div className="header-container">
                                 <h2>Unlocking Premium Content</h2>
                             </div>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3">
+                        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                             <div className="scroll-container">
                                 <UnlockBox data={list}/>
                             </div>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3">
+                        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                             <p className="white-text">
                                 Further monetizing the multi-media infrastructure in place creates a unique,
                                 exclusive platform for comprehensive artist content.  Integration of services
@@ -282,7 +282,7 @@ export class Data extends React.Component{
         return (
             <div className="data container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="topic-header">
                             <div className="circle"><h3>3</h3></div>
                             <div className="left-line"></div>
@@ -316,7 +316,7 @@ export class Sources extends React.Component {
             <div className="background-image" id="wave-4" style={{backgroundImage:`url(${Wave4})`}}>
                 <div className="sources container-fluid">
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3">
+                        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                             <div className="topic-header">
                                 <div className="circle"><h3>4</h3></div>
                                 <div className="left-line"></div>
@@ -325,13 +325,13 @@ export class Sources extends React.Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3">
-                            <div className="col-md-6">
+                        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                            <div className="col-md-6 col-sm-6">
                                 <div className="blue-container">
                                     <a href="https://www.youtube.com/watch?v=8U8Iku1Ov2Q">Jimmy Iovine Interview</a>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-sm-6">
                                 <div className="blue-container">
                                     <a href="https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp">
                                         How Does Spotify Make Money?
@@ -341,15 +341,15 @@ export class Sources extends React.Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-md-offset-3">
-                            <div className="col-md-6">
+                        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                            <div className="col-md-6 col-sm-6">
                                 <div className="blue-container">
                                     <a href="https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth">
                                         The Music Industry Is Finally Making Moneyon Streaming
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-sm-6">
                                 <div className="blue-container">
                                     <a href="https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699">
                                         Streaming Music Services, From Most Screwed to Least Screwed

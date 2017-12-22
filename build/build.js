@@ -22194,7 +22194,7 @@ var Header = exports.Header = function (_React$Component2) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-5 col-md-offset-1 col-sm-6' },
+                            { className: 'col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-2' },
                             _react2.default.createElement(
                                 'div',
                                 { className: 'title-container' },
@@ -22240,7 +22240,7 @@ var Market = exports.Market = function (_React$Component3) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'topic-header' },
@@ -22272,7 +22272,7 @@ var Market = exports.Market = function (_React$Component3) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'blue-container' },
@@ -22285,7 +22285,7 @@ var Market = exports.Market = function (_React$Component3) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'blue-container' },
@@ -22320,7 +22320,7 @@ var Solution = exports.Solution = function (_React$Component4) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'topic-header' },
@@ -22369,7 +22369,7 @@ var Solution = exports.Solution = function (_React$Component4) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'col-sm-6' },
@@ -22441,7 +22441,7 @@ var Purchase = exports.Purchase = function (_React$Component5) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'diagram-container' },
@@ -22465,7 +22465,7 @@ var Purchase = exports.Purchase = function (_React$Component5) {
                                 { className: 'row' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-4' },
+                                    { className: 'col-md-4 col-sm-3' },
                                     _react2.default.createElement(
                                         'div',
                                         { className: 'cycle-step', id: 'step-three' },
@@ -22483,7 +22483,7 @@ var Purchase = exports.Purchase = function (_React$Component5) {
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-4 col-md-offset-4' },
+                                    { className: 'col-md-4 col-md-offset-4 col-sm-3 col-sm-offset-2' },
                                     _react2.default.createElement(
                                         'div',
                                         { className: 'cycle-step', id: 'step-two' },
@@ -22533,7 +22533,7 @@ var Content = exports.Content = function (_React$Component6) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-6 col-md-offset-3' },
+                            { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
                                 { className: 'header-container' },
@@ -22550,7 +22550,7 @@ var Content = exports.Content = function (_React$Component6) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-6 col-md-offset-3' },
+                            { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
                                 { className: 'scroll-container' },
@@ -22563,7 +22563,7 @@ var Content = exports.Content = function (_React$Component6) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-6 col-md-offset-3' },
+                            { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'p',
                                 { className: 'white-text' },
@@ -22634,7 +22634,7 @@ var Data = exports.Data = function (_React$Component8) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                         _react2.default.createElement(
                             'div',
                             { className: 'topic-header' },
@@ -22699,7 +22699,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-6 col-md-offset-3' },
+                            { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
                                 { className: 'topic-header' },
@@ -22726,10 +22726,10 @@ var Sources = exports.Sources = function (_React$Component9) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-6 col-md-offset-3' },
+                            { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6' },
+                                { className: 'col-md-6 col-sm-6' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
@@ -22742,7 +22742,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6' },
+                                { className: 'col-md-6 col-sm-6' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
@@ -22760,10 +22760,10 @@ var Sources = exports.Sources = function (_React$Component9) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-6 col-md-offset-3' },
+                            { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6' },
+                                { className: 'col-md-6 col-sm-6' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
@@ -22776,7 +22776,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6' },
+                                { className: 'col-md-6 col-sm-6' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
