@@ -95,7 +95,15 @@ p.white-text{
 }
 
 .scroll-container{
-  overflow: scroll;
+  overflow: hidden;
+  background-color: #172d6d;
+  border-radius: 6px;
+  padding: 30px 10px;
+    ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
 }
 
 .sources .blue-container {
