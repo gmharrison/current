@@ -42,7 +42,7 @@ export class Header extends React.Component {
             <div className="background-image" id="cover-image" style={{backgroundImage:`url(${Wave})`}}>
                 <div className="header container-fluid">
                     <div className="row">
-                        <div className="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-2">
+                        <div className="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-2 col-xs-10 col-xs-offset-1">
                             <div className="title-container">
                                 <h1>Current Multi-Media Platform</h1>
                                 <p className="subtitle">
@@ -64,7 +64,7 @@ export class Market extends React.Component {
         return (
             <div className="market container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                         <div className="topic-header">
                             <div className="circle"><h3>1</h3></div>
                             <div className="left-line"></div>
@@ -80,14 +80,14 @@ export class Market extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                         <div className="blue-container">
                             <FirstChart/>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                         <div className="blue-container">
                             <SecondChart/>
                         </div>
@@ -103,7 +103,7 @@ export class Solution extends React.Component {
         return (
             <div className="solution container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                         <div className="topic-header">
                             <div className="circle"><h3>2</h3></div>
                             <div className="left-line"></div>
@@ -139,7 +139,7 @@ export class Solution extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                         <div className="col-sm-6">
                             <div className="blue-container text">
                                 <h5>Blue Ocean Strategy</h5>
@@ -180,36 +180,7 @@ export class Purchase extends React.Component{
                 <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                         <div className="diagram-container">
-                            <div className="cycle-step" id="step-one">
-                                <h5>Purchase</h5>
-                                <p className="body-text">
-                                    Pay-per-item, prices set by
-                                    producer/brand. Permanent access via platform and download option.
-                                </p>
-                            </div>
                             <Cycle/>
-                            <div className="row">
-                                <div className="col-md-4 col-sm-3">
-                                <div className="cycle-step" id="step-three">
-                                    <h5>Exposure</h5>
-                                    <p className="body-text">
-                                        The streaming access exposes users to more content available for purchase, receive targeted
-                                        recommendations, offers to purchase exclusive physical
-                                        merchandise. Push notification for updates.  Aggregate updates RSS reader style in some
-                                        part of the UI/UX. Tie more advertising into unlocked streamed content, Ad-free only if content is purchased.
-                                    </p>
-                                </div>
-                                </div>
-                                <div className="col-md-4 col-md-offset-4 col-sm-3 col-sm-offset-2">
-                                <div className="cycle-step" id="step-two">
-                                    <h5>Streaming</h5>
-                                    <p className="body-text">
-                                        Timed access to other media of the same artist/producer/brand. Tiered unlocks
-                                        based on levels of purchase.
-                                    </p>
-                                </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -221,7 +192,7 @@ export class Purchase extends React.Component{
 export class Content extends React.Component {
     render() {
         return (
-            <div className="background-image" id="wave-3" style={{backgroundImage:`url(${Wave3})`}}>
+            <div className="content background-image" id="wave-3" style={{backgroundImage:`url(${Wave3})`}}>
                 <div className="content container-fluid">
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -313,7 +284,7 @@ export class Data extends React.Component{
 export class Sources extends React.Component {
     render(){
         return (
-            <div className="background-image" id="wave-4" style={{backgroundImage:`url(${Wave4})`}}>
+            <div className="sources background-image" id="wave-4" style={{backgroundImage:`url(${Wave4})`}}>
                 <div className="sources container-fluid">
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -345,7 +316,7 @@ export class Sources extends React.Component {
                             <div className="col-md-6 col-sm-6">
                                 <div className="blue-container">
                                     <a href="https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth">
-                                        The Music Industry Is Finally Making Moneyon Streaming
+                                        The Music Industry Is Finally Making Money on Streaming
                                     </a>
                                 </div>
                             </div>

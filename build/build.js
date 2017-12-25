@@ -22194,7 +22194,7 @@ var Header = exports.Header = function (_React$Component2) {
                         { className: 'row' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-2' },
+                            { className: 'col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-2 col-xs-10 col-xs-offset-1' },
                             _react2.default.createElement(
                                 'div',
                                 { className: 'title-container' },
@@ -22240,7 +22240,7 @@ var Market = exports.Market = function (_React$Component3) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2' },
                         _react2.default.createElement(
                             'div',
                             { className: 'topic-header' },
@@ -22272,7 +22272,7 @@ var Market = exports.Market = function (_React$Component3) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2' },
                         _react2.default.createElement(
                             'div',
                             { className: 'blue-container' },
@@ -22285,7 +22285,7 @@ var Market = exports.Market = function (_React$Component3) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2' },
                         _react2.default.createElement(
                             'div',
                             { className: 'blue-container' },
@@ -22320,7 +22320,7 @@ var Solution = exports.Solution = function (_React$Component4) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2' },
                         _react2.default.createElement(
                             'div',
                             { className: 'topic-header' },
@@ -22369,7 +22369,7 @@ var Solution = exports.Solution = function (_React$Component4) {
                     { className: 'row' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
+                        { className: 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2' },
                         _react2.default.createElement(
                             'div',
                             { className: 'col-sm-6' },
@@ -22445,61 +22445,7 @@ var Purchase = exports.Purchase = function (_React$Component5) {
                         _react2.default.createElement(
                             'div',
                             { className: 'diagram-container' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'cycle-step', id: 'step-one' },
-                                _react2.default.createElement(
-                                    'h5',
-                                    null,
-                                    'Purchase'
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    { className: 'body-text' },
-                                    'Pay-per-item, prices set by producer/brand. Permanent access via platform and download option.'
-                                )
-                            ),
-                            _react2.default.createElement(_svgs.Cycle, null),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'row' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4 col-sm-3' },
-                                    _react2.default.createElement(
-                                        'div',
-                                        { className: 'cycle-step', id: 'step-three' },
-                                        _react2.default.createElement(
-                                            'h5',
-                                            null,
-                                            'Exposure'
-                                        ),
-                                        _react2.default.createElement(
-                                            'p',
-                                            { className: 'body-text' },
-                                            'The streaming access exposes users to more content available for purchase, receive targeted recommendations, offers to purchase exclusive physical merchandise. Push notification for updates.  Aggregate updates RSS reader style in some part of the UI/UX. Tie more advertising into unlocked streamed content, Ad-free only if content is purchased.'
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4 col-md-offset-4 col-sm-3 col-sm-offset-2' },
-                                    _react2.default.createElement(
-                                        'div',
-                                        { className: 'cycle-step', id: 'step-two' },
-                                        _react2.default.createElement(
-                                            'h5',
-                                            null,
-                                            'Streaming'
-                                        ),
-                                        _react2.default.createElement(
-                                            'p',
-                                            { className: 'body-text' },
-                                            'Timed access to other media of the same artist/producer/brand. Tiered unlocks based on levels of purchase.'
-                                        )
-                                    )
-                                )
-                            )
+                            _react2.default.createElement(_svgs.Cycle, null)
                         )
                     )
                 )
@@ -22524,7 +22470,7 @@ var Content = exports.Content = function (_React$Component6) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                { className: 'background-image', id: 'wave-3', style: { backgroundImage: 'url(' + _wave4.default + ')' } },
+                { className: 'content background-image', id: 'wave-3', style: { backgroundImage: 'url(' + _wave4.default + ')' } },
                 _react2.default.createElement(
                     'div',
                     { className: 'content container-fluid' },
@@ -22690,7 +22636,7 @@ var Sources = exports.Sources = function (_React$Component9) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                { className: 'background-image', id: 'wave-4', style: { backgroundImage: 'url(' + _wave6.default + ')' } },
+                { className: 'sources background-image', id: 'wave-4', style: { backgroundImage: 'url(' + _wave6.default + ')' } },
                 _react2.default.createElement(
                     'div',
                     { className: 'sources container-fluid' },
@@ -22770,7 +22716,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                                     _react2.default.createElement(
                                         'a',
                                         { href: 'https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth' },
-                                        'The Music Industry Is Finally Making Moneyon Streaming'
+                                        'The Music Industry Is Finally Making Money on Streaming'
                                     )
                                 )
                             ),
@@ -23269,115 +23215,397 @@ var Cycle = exports.Cycle = function (_React$Component4) {
         value: function render() {
             return _react2.default.createElement(
                 "svg",
-                { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 410.42 363.09" },
+                { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 407.22 444.63" },
                 _react2.default.createElement(
                     "defs",
                     null,
                     _react2.default.createElement(
                         "linearGradient",
-                        { id: "linearGradient", x1: "155.47", y1: "180.72", x2: "184.82",
-                            y2: "279.98", gradientUnits: "userSpaceOnUse" },
+                        { id: "linearGradient", x1: "156.81", y1: "166.02", x2: "180.19",
+                            y2: "245.09", gradientUnits: "userSpaceOnUse" },
                         _react2.default.createElement("stop", { offset: "0", stopColor: "#ffc75a" }),
                         _react2.default.createElement("stop", { offset: "1", stopColor: "#c39146" })
                     )
                 ),
                 _react2.default.createElement(
                     "g",
-                    null,
+                    { style: { isolation: 'isolate' } },
                     _react2.default.createElement(
                         "g",
-                        { id: "Layer_2" },
-                        _react2.default.createElement("rect", { x: "44.63", y: "70.65", width: "310.69", height: "216.26", fill: "#242930"
+                        { id: "Layer_1" },
+                        _react2.default.createElement("rect", { x: "79.15", y: "80.93", width: "248.82", height: "173.19", fill: "#242930"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "69.78", width: "310.91", height: "21.09", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "80.24", width: "248.99", height: "16.89", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "90", width: "65.67", height: "27.21", fill: "#363c44" }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "118.95", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "96.43", width: "52.59", height: "21.79", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "139.93", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "119.61", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "160.92", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "136.42", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "181.91", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "153.23", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "202.89", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "170.03", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "223.88", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "186.84", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "244.87", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "203.65", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "44.53", y: "265.85", width: "65.67", height: "19.24", fill: "#363c44"
+                        _react2.default.createElement("rect", { x: "79.07", y: "220.46", width: "52.59", height: "15.41", fill: "#363c44"
                         }),
-                        _react2.default.createElement("rect", { x: "128.89", y: "200.77", width: "56.14", height: "56.14", rx: "3", ry: "3",
+                        _react2.default.createElement("rect", { x: "79.07", y: "237.26", width: "52.59", height: "15.41", fill: "#363c44"
+                        }),
+                        _react2.default.createElement("rect", { x: "146.63", y: "185.14", width: "44.96", height: "44.96", rx: "3", ry: "3",
                             fill: "url(#linearGradient)" }),
-                        _react2.default.createElement("rect", { x: "202.2", y: "200.77", width: "56.14", height: "56.14", rx: "3", ry: "3",
+                        _react2.default.createElement("rect", { x: "205.34", y: "185.14", width: "44.96", height: "44.96", rx: "3", ry: "3",
                             fill: "#363c44" }),
-                        _react2.default.createElement("rect", { x: "275.5", y: "200.77", width: "56.14", height: "56.14", rx: "3", ry: "3",
+                        _react2.default.createElement("rect", { x: "264.04", y: "185.14", width: "44.96", height: "44.96", rx: "3", ry: "3",
                             fill: "#363c44" }),
-                        _react2.default.createElement("rect", { x: "128.89", y: "111.93", width: "56.14", height: "56.14", rx: "3", ry: "3",
+                        _react2.default.createElement("rect", { x: "146.63", y: "113.99", width: "44.96", height: "44.96", rx: "3", ry: "3",
                             fill: "#c3a3cd" }),
-                        _react2.default.createElement("rect", { x: "202.2", y: "111.93", width: "56.14", height: "56.14", rx: "3", ry: "3",
+                        _react2.default.createElement("rect", { x: "205.34", y: "113.99", width: "44.96", height: "44.96", rx: "3", ry: "3",
                             fill: "#3d4669" }),
-                        _react2.default.createElement("rect", { x: "275.5", y: "111.93", width: "56.14", height: "56.14", rx: "3", ry: "3",
+                        _react2.default.createElement("rect", { x: "264.04", y: "113.99", width: "44.96", height: "44.96", rx: "3", ry: "3",
                             fill: "#1f5f53" }),
                         _react2.default.createElement(
                             "text",
-                            { transform: "translate(216.64 243.4)", fontSize: "36.458", fill: "#242930",
+                            { transform: "translate(216.9 219.28)", fontSize: "29.197", fill: "#242930",
                                 fontFamily: "FontAwesome,FontAwesome" },
                             "\uF023"
                         ),
                         _react2.default.createElement(
                             "text",
-                            { transform: "translate(290.03 243.4)", fontSize: "36.458", fill: "#242930",
+                            { transform: "translate(275.68 219.28)", fontSize: "29.197", fill: "#242930",
                                 fontFamily: "FontAwesome,FontAwesome" },
                             "\uF023"
                         ),
                         _react2.default.createElement(
                             "text",
-                            { transform: "translate(140.88 243.4)", fontSize: "36.458", fill: "#fff",
+                            { transform: "translate(156.23 219.28)", fontSize: "29.197", fill: "#fff",
                                 fontFamily: "FontAwesome,FontAwesome" },
                             "\uF09C"
                         ),
-                        _react2.default.createElement("line", { x1: "131.62", y1: "174.79", x2: "173.04", y2: "174.79", fill: "none",
+                        _react2.default.createElement("line", { x1: "148.81", y1: "164.33", x2: "181.98", y2: "164.33", fill: "none",
                             stroke: "#7d7e81", strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "131.62", y1: "179.87", x2: "161.05", y2: "179.87", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "148.81", y1: "168.41", x2: "172.38", y2: "168.41", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "131.62", y1: "263.44", x2: "173.04", y2: "263.44", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "148.81", y1: "235.33", x2: "181.98", y2: "235.33", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "131.62", y1: "268.53", x2: "161.05", y2: "268.53", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "148.81", y1: "239.41", x2: "172.38", y2: "239.41", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "206.1", y1: "174.79", x2: "247.52", y2: "174.79", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "208.46", y1: "164.33", x2: "241.64", y2: "164.33", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "206.1", y1: "179.87", x2: "235.53", y2: "179.87", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "208.46", y1: "168.41", x2: "232.03", y2: "168.41", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "279.5", y1: "174.79", x2: "320.92", y2: "174.79", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "267.24", y1: "164.33", x2: "300.42", y2: "164.33", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("line", { x1: "279.5", y1: "179.87", x2: "308.93", y2: "179.87", fill: "none", stroke: "#7d7e81",
+                        _react2.default.createElement("line", { x1: "267.24", y1: "168.41", x2: "290.81", y2: "168.41", fill: "none", stroke: "#7d7e81",
                             strokeMiterlimit: "10", strokeWidth: ".5" }),
-                        _react2.default.createElement("rect", { x: "292.94", y: "77.05", width: "51.6", height: "5.81", fill: "#fff" }),
-                        _react2.default.createElement("path", { d: "M369.62,74.75H58.36V64.53a3,3,0,0,1,3-3H366.62a3,3,0,0,1,3,3Z",
-                            transform: "translate(-13.95 -4.1)", fill: "#e1e8ef" }),
-                        _react2.default.createElement("circle", { cx: "53.31", cy: "64.15", r: "3.45", fill: "#e41e27" }),
-                        _react2.default.createElement("circle", { cx: "64.76", cy: "64.15", r: "3.45", fill: "#e4c721" }),
-                        _react2.default.createElement("circle", { cx: "76.75", cy: "64.15", r: "3.45", fill: "#4eb748" }),
+                        _react2.default.createElement("rect", { x: "278.01", y: "86.06", width: "41.32", height: "4.66", fill: "#fff" }),
+                        _react2.default.createElement("path", { d: "M338.41,98.26H89.14V90.67a3,3,0,0,1,3-3H335.41a3,3,0,0,1,3,3Z",
+                            transform: "translate(-10.17 -17.33)", fill: "#e1e8ef" }),
+                        _react2.default.createElement("circle", { cx: "86.1", cy: "75.73", r: "2.76", fill: "#e41e27" }),
+                        _react2.default.createElement("circle", { cx: "95.27", cy: "75.73", r: "2.76", fill: "#e4c721" }),
+                        _react2.default.createElement("circle", { cx: "104.87", cy: "75.73", r: "2.76", fill: "#4eb748" }),
                         _react2.default.createElement(
                             "g",
-                            { fill: "none", stroke: "#c1dae5", strokeMiterlimit: "10", strokeWidth: ".5" },
-                            _react2.default.createElement("line", { x1: "269.04", y1: "353.66", x2: "137.04", y2: "353.66" }),
-                            _react2.default.createElement("polyline", { points: "146.55 362.91 137.19 353.55 146.55 344.18" })
+                            { fontSize: "8.809" },
+                            _react2.default.createElement(
+                                "text",
+                                { transform: "translate(180.58 7.59)", fill: "#283270", fontFamily: "Lato-Bold,Lato",
+                                    fontWeight: "700" },
+                                "PU",
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "11.92", y: "0", letterSpacing: "-.024em" },
+                                    "R"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "17.48", y: "0" },
+                                    "CHASE"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "text",
+                                { transform: "translate(152.73 22.89)", fill: "#475191", fontFamily: "Lato-Regular,Lato" },
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { letterSpacing: "-.025em" },
+                                    "P"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "5.16", y: "0", letterSpacing: "-.016em" },
+                                    "a"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "9.49", y: "0" },
+                                    "y-per-item, prices set"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "92.44", y: "0", letterSpacing: "-.013em" },
+                                    "b"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "97.25", y: "0" },
+                                    "y"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "-16.28", y: "13.61" },
+                                    "producer/b"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "27.34", y: "13.61", letterSpacing: "-.019em" },
+                                    "r"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "30.72", y: "13.61" },
+                                    "and."
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "48.58", y: "13.61", letterSpacing: "-.015em" },
+                                    "P"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "53.83", y: "13.61" },
+                                    "ermanent access"
+                                ),
+                                _react2.default.createElement(
+                                    "tspan",
+                                    { x: "-14.53", y: "27.23" },
+                                    "via platform and download option."
+                                )
+                            )
                         ),
                         _react2.default.createElement(
                             "g",
                             { fill: "none", stroke: "#c1dae5", strokeMiterlimit: "10", strokeWidth: ".5" },
-                            _react2.default.createElement("polyline", { points: "307.63 9.54 400.63 9.54 400.63 282.53" }),
-                            _react2.default.createElement("polyline", { points: "410.25 273.87 400.88 283.23 391.52 273.87" }),
+                            _react2.default.createElement("polyline", { points: "291.1 31.99 365.58 31.99 365.58 250.62" }),
+                            _react2.default.createElement("polyline", { points: "373.28 243.68 365.78 251.18 358.28 243.68" })
+                        ),
+                        _react2.default.createElement(
+                            "g",
+                            null,
                             _react2.default.createElement(
                                 "g",
-                                null,
-                                _react2.default.createElement("polyline", { points: "93.25 9.54 0.25 9.54 0.25 282.53" }),
-                                _react2.default.createElement("polyline", { points: "83.88 18.91 93.25 9.54 83.88 0.18" })
-                            )
-                        )
+                                { fontSize: "8.809" },
+                                _react2.default.createElement(
+                                    "text",
+                                    { transform: "translate(311.31 284.68)", fill: "#283270", fontFamily: "Lato-Bold,Lato",
+                                        fontWeight: "700" },
+                                    "STREAMING"
+                                ),
+                                _react2.default.createElement(
+                                    "text",
+                                    { transform: "translate(271.06 299.98)", fill: "#475191",
+                                        fontFamily: "Lato-Regular,Lato" },
+                                    "Timed access to other media of the",
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "-1.22", y: "13.62" },
+                                        "same artist"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "41.28", y: "13.62", letterSpacing: "-.044em" },
+                                        "/"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "44.18", y: "13.62" },
+                                        "producer/b"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "87.8", y: "13.62", letterSpacing: "-.019em" },
+                                        "r"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "91.19", y: "13.62" },
+                                        "and. Tiered"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "-2.19", y: "27.23" },
+                                        "unlocks based on l"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "67.22", y: "27.23", letterSpacing: "-.013em" },
+                                        "ev"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "76.12", y: "27.23" },
+                                        "els of purchase."
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "g",
+                                { fontSize: "8.809" },
+                                _react2.default.createElement(
+                                    "text",
+                                    { transform: "translate(46.64 284.68)", fill: "#283270", fontFamily: "Lato-Bold,Lato",
+                                        fontWeight: "700" },
+                                    "EXPOSURE"
+                                ),
+                                _react2.default.createElement(
+                                    "text",
+                                    { transform: "translate(1.36 299.98)", fill: "#475191",
+                                        fontFamily: "Lato-Regular,Lato" },
+                                    "The streaming access",
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "83.4", y: "0", letterSpacing: "-.03em" },
+                                        "e"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "87.75", y: "0" },
+                                        "xposes users"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "12.93", y: "13.62" },
+                                        "to more content"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "76.5", y: "13.62", letterSpacing: "-.016em" },
+                                        "a"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "80.83", y: "13.62", letterSpacing: "0em" },
+                                        "vailable for"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "17.36", y: "27.23" },
+                                        "purchase, recei"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "75.31", y: "27.23", letterSpacing: "-.013em" },
+                                        "v"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "79.7", y: "27.23" },
+                                        "e targeted"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "15.32", y: "40.84" },
+                                        "recommendations, offers to"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "16.03", y: "54.46" },
+                                        "purchase"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "52.96", y: "54.46", letterSpacing: "-.03em" },
+                                        "ex"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "61.49", y: "54.46" },
+                                        "clusi"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "78.83", y: "54.46", letterSpacing: "-.013em" },
+                                        "v"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "83.23", y: "54.46" },
+                                        "e p"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "94.41", y: "54.46", letterSpacing: "-.016em" },
+                                        "h"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "99.17", y: "54.46" },
+                                        "ysical"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "2.78", y: "68.07" },
+                                        "merchandise. Push notification for"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "5.58", y: "81.69" },
+                                        "updates. Aggregate updates RSS"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "8.83", y: "95.3" },
+                                        "reader style in some part of the"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "6.38", y: "108.92" },
+                                        "UI/UX. Tie more ad"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "79.62", y: "108.92", letterSpacing: "-.013em" },
+                                        "v"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "84.02", y: "108.92" },
+                                        "ertising into"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "-.77", y: "122.53" },
+                                        "unloc"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "20.3", y: "122.53", letterSpacing: "-.03em" },
+                                        "k"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "24.65", y: "122.53" },
+                                        "ed streamed content, Ad-free"
+                                    ),
+                                    _react2.default.createElement(
+                                        "tspan",
+                                        { x: "14.97", y: "136.15" },
+                                        "only if content is purchased."
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement("line", { x1: "263.92", y1: "307.58", x2: "158.21", y2: "307.58", fill: "none", stroke: "#c1dae5",
+                                strokeMiterlimit: "10", strokeWidth: ".5" }),
+                            _react2.default.createElement("polyline", { points: "165.82 314.99 158.33 307.49 165.82 299.99", fill: "none",
+                                stroke: "#c1dae5", strokeMiterlimit: "10", strokeWidth: ".5" })
+                        ),
+                        _react2.default.createElement("polyline", { points: "119.41 31.99 44.93 31.99 44.93 250.62", fill: "none", stroke: "#c1dae5",
+                            strokeMiterlimit: "10", strokeWidth: ".5" }),
+                        _react2.default.createElement("polyline", { points: "111.91 39.49 119.41 31.99 111.91 24.49", fill: "none",
+                            stroke: "#c1dae5", strokeMiterlimit: "10", strokeWidth: ".5" })
                     )
                 )
             );
