@@ -1,22 +1,26 @@
 import React from 'react';
 import {FirstChart, SecondChart, TopWave, Cycle} from "./svgs";
 import Wave from '!file-loader!../static/img/wave.svg'
-import Whale from '../static/img/whale.svg'
+import Wave2 from '!file-loader!../static/img/wave2.svg'
 import Wave3 from '!file-loader!../static/img/wave3.svg'
 import Wave4 from '!file-loader!../static/img/wave4.svg'
-import Unlock from '!file-loader!../static/img/unlock1.svg'
+import Whale from '../static/img/whale.svg'
+import Unlock1 from '!file-loader!../static/img/unlock1.svg'
+import Unlock2 from '!file-loader!../static/img/unlock2.svg'
+import Unlock3 from '!file-loader!../static/img/unlock3.svg'
 
 export const list = [{
     id: 1,
     text: "With a song download, receive exclusive video content",
-    img: Unlock
-    },
-    {
+    img: Unlock1
+    }, {
     id: 2,
-    text: "With an album pre-order, receive exclusive physical merchandise"},
-    {
+    text: "With an album pre-order, receive exclusive physical merchandise",
+    img: Unlock2
+    }, {
     id: 3,
     text: "Sell concert livestreams andfestival merch on the same platform",
+    img: Unlock3
 }]
 
 
@@ -62,34 +66,36 @@ export class Header extends React.Component {
 export class Market extends React.Component {
     render () {
         return (
-            <div className="market container-fluid">
-                <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                        <div className="topic-header">
-                            <div className="circle"><h3>1</h3></div>
-                            <div className="left-line"></div>
-                            <h2>The Market Frustration</h2>
-                        </div>
-                        <p className="body-text">Ad-supported streaming & subscription services are driving down the value of content,
-                            as views and exposure are going up.  The shift to a streaming majority has removed the
-                            ability to dictate monetization from the artists and producers.  Social and big data are
-                            cutting out others as the new publishers, and brands are serving as content producers.
-                            Services and subscriptions have trouble differentiating as they compete on price,
-                            and struggle with sterility, interactivity, and discoverability.
-                        </p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                        <div className="blue-container">
-                            <FirstChart/>
+            <div className="background-image" id="wave-2" style={{backgroundImage:`url(${Wave2})`}}>
+                <div className="market container-fluid">
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <div className="topic-header">
+                                <div className="circle"><h3>1</h3></div>
+                                <div className="left-line"></div>
+                                <h2>The Market Frustration</h2>
+                            </div>
+                            <p className="body-text">Ad-supported streaming & subscription services are driving down the value of content,
+                                as views and exposure are going up.  The shift to a streaming majority has removed the
+                                ability to dictate monetization from the artists and producers.  Social and big data are
+                                cutting out others as the new publishers, and brands are serving as content producers.
+                                Services and subscriptions have trouble differentiating as they compete on price,
+                                and struggle with sterility, interactivity, and discoverability.
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                        <div className="blue-container">
-                            <SecondChart/>
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <div className="blue-container">
+                                <FirstChart/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <div className="blue-container">
+                                <SecondChart/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,6 +153,7 @@ export class Solution extends React.Component {
                                     Create open “blue ocean” of uncontested market space, as opposed to fighting for tiny
                                     portions of market share in highly contested “red oceans.”
                                 </p>
+                                <div className="ocean-line"></div>
                             </div>
                         </div>
                         <div className="col-sm-6">
@@ -158,6 +165,7 @@ export class Solution extends React.Component {
                                     20% of its users. This 20% of high-value users in the first month continue to drive 67%
                                     of revenue in the subsequent month (equating to ~6x more revenue than other users).
                                 </p>
+                                <div className="whale-line"></div>
                             </div>
                         </div>
                         <Whale/>
@@ -297,14 +305,14 @@ export class Sources extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                            <div className="col-md-6 col-sm-6">
+                            <div className="col-md-6 col-sm-6 col-xs-6">
                                 <div className="blue-container">
-                                    <a href="https://www.youtube.com/watch?v=8U8Iku1Ov2Q">Jimmy Iovine Interview</a>
+                                    <a href="https://www.youtube.com/watch?v=8U8Iku1Ov2Q" target="_blank">Jimmy Iovine Interview</a>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-6">
+                            <div className="col-md-6 col-sm-6 col-xs-6">
                                 <div className="blue-container">
-                                    <a href="https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp">
+                                    <a href="https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp" target="_blank">
                                         How Does Spotify Make Money?
                                     </a>
                                 </div>
@@ -313,16 +321,16 @@ export class Sources extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                            <div className="col-md-6 col-sm-6">
+                            <div className="col-md-6 col-sm-6 col-xs-6">
                                 <div className="blue-container">
-                                    <a href="https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth">
+                                    <a href="https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth" target="_blank">
                                         The Music Industry Is Finally Making Money on Streaming
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-6">
+                            <div className="col-md-6 col-sm-6 col-xs-6">
                                 <div className="blue-container">
-                                    <a href="https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699">
+                                    <a href="https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699" target="_blank">
                                         Streaming Music Services, From Most Screwed to Least Screwed
                                     </a>
                                 </div>

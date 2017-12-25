@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.73 166.94">
+  <title>unlock2</title>
+  <circle cx="83.47" cy="83.47" r="83.47" style="fill: #e4f0f4"/>
+  <rect x="8.76" y="32.68" width="81" height="81" style="fill: #505e6e"/>
+  <line x1="14.76" y1="126.68" x2="68.76" y2="126.68" style="fill: #eff4fb;stroke: #c1dae5;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+  <line x1="14.76" y1="135.68" x2="54.76" y2="135.68" style="fill: #eff4fb;stroke: #c1dae5;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+  <rect x="19.76" y="57.45" width="32" height="7" style="fill: #5f6f82"/>
+  <rect x="19.76" y="45.68" width="32" height="7" style="fill: #5f6f82"/>
+  <g>
+    <rect x="106.58" y="84.07" width="114.15" height="71.11" rx="3" ry="3" style="fill: #73859e"/>
+    <rect x="111.63" y="89.34" width="104.05" height="48.73" style="fill: #505e6e"/>
+    <polygon points="202.51 140.27 124.8 140.27 120.41 152.84 206.9 152.84 202.51 140.27" style="fill: #5f6f82"/>
+    <rect x="135.11" y="108.22" width="57.08" height="13.61" rx="5.51" ry="5.51" style="fill: #5f6f82"/>
+    <circle cx="142.91" cy="115.1" r="5.49" style="fill: #505e6e"/>
+    <circle cx="185.2" cy="115.1" r="5.49" style="fill: #505e6e"/>
+    <line x1="139.83" y1="130.17" x2="186.81" y2="130.17" style="fill: #73859e;stroke: #73859e;stroke-miterlimit: 10"/>
+    <line x1="124.03" y1="100.32" x2="199.98" y2="100.32" style="fill: #73859e;stroke: #73859e;stroke-miterlimit: 10"/>
+  </g>
+  <circle cx="98.76" cy="75.18" r="22.5" style="fill: #5ebf86"/>
+  <text transform="translate(89.87 83.61)" style="font-size: 21.507369995117188px;fill: #fff;font-family: FontAwesome, FontAwesome"></text>
+</svg>

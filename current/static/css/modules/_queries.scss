@@ -1,5 +1,5 @@
-@media screen and (max-width: 700px) {
-  p.body-text {
+@media screen and (max-width: 768px) {
+  p {
     font-size: 18px;
   }
 
@@ -19,6 +19,10 @@
     margin-top: -70px;
   }
 
+  #wave-2 {
+    background-position: center 300px;
+  }
+
   #wave-4 {
     padding: 50px 0;
     background-size: cover;
@@ -26,6 +30,10 @@
 
   .content .blue-container {
     width: 70%;
+  }
+
+  .ocean-line, .whale-line {
+    display: none;
   }
 }
 

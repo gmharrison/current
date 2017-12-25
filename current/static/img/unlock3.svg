@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231.56 174.38">
+  <title>unlock3</title>
+  <circle cx="109.83" cy="83.47" r="83.47" style="fill: #e4f0f4"/>
+  <g>
+    <polygon points="134.12 100.88 0 100.88 0 79.09 0 24.02 134.12 24.02 134.12 100.88" style="fill: #5f6f82"/>
+    <line x1="1.96" y1="96.72" x2="132.28" y2="96.72" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+    <rect x="3.58" y="28.32" width="18.93" height="9.89" rx="2" ry="2" style="fill: #c42345"/>
+    <path d="M145.7,84.37s-2.21-14.62-12.48-6.88-27.33.63-40.39-4.3c-22.76-8.61-27.57,5-38.18,0C32.63,62.86,16.47,87,16.47,87V94.7H145.7Z" transform="translate(-13.78 -3.57)" style="fill: #505e6e"/>
+    <g>
+      <path d="M21,38.7h1.93v.74H20.05V34.61H21Z" transform="translate(-13.78 -3.57)" style="fill: #fff"/>
+      <path d="M24.52,39.44h-.91V34.61h.91Z" transform="translate(-13.78 -3.57)" style="fill: #fff"/>
+      <path d="M25.13,34.61h.72a.29.29,0,0,1,.19.06.28.28,0,0,1,.11.15l1.14,2.94c0,.1.07.2.1.31s.07.24.1.37a4.68,4.68,0,0,1,.19-.68l1.13-2.94a.3.3,0,0,1,.11-.14.26.26,0,0,1,.19-.07h.73l-1.95,4.83h-.82Z" transform="translate(-13.78 -3.57)" style="fill: #fff"/>
+      <path d="M33.38,34.61v.72H31.24v1.33h1.69v.7H31.24v1.36h2.14v.72h-3V34.61Z" transform="translate(-13.78 -3.57)" style="fill: #fff"/>
+    </g>
+  </g>
+  <path d="M229.7,120.56l-12.89-9.27L201.5,177.88s-12.72.85-30.3-3.33a81,81,0,0,1-27.06-12L164,97.2l-15.79,1.63-6.16-20.69,37.22-8.2s3.36,11.43,15.1,15.8c12.36,2.06,22.76-5.7,22.76-5.7l28.18,25.65Z" transform="translate(-13.78 -3.57)" style="fill: #505e6e"/>
+  <circle cx="122.24" cy="87.16" r="22.5" style="fill: #5ebf86"/>
+  <path d="M147.09,87.63V90.7a.79.79,0,0,1-.77.77h-.76a.79.79,0,0,1-.77-.77V87.63a3.08,3.08,0,0,0-6.15,0v2.31h1.16A1.14,1.14,0,0,1,141,91.09V98a1.14,1.14,0,0,1-1.15,1.15H128.27A1.14,1.14,0,0,1,127.12,98V91.09a1.14,1.14,0,0,1,1.15-1.15h8.07V87.63a5.38,5.38,0,0,1,10.75,0Z" transform="translate(-13.78 -3.57)" style="fill: #fff"/>
+  <line x1="157.13" y1="99.54" x2="192.18" y2="107.63" style="fill: none;stroke: #5f6f82;stroke-miterlimit: 10;stroke-width: 4px"/>
+  <line x1="160.42" y1="109.42" x2="184.99" y2="115.12" style="fill: none;stroke: #5f6f82;stroke-miterlimit: 10;stroke-width: 4px"/>
+</svg>

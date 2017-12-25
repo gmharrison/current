@@ -113,7 +113,7 @@ export class FirstChart extends React.Component {
                     <tspan x='7.18' y='0' letterSpacing='-.021em'>D</tspan>
                     <tspan x='13.03' y='0'>AL</tspan>
                 </text>
-                <text transform='translate(131.62 10.3)' fontSize='12' fill='#73859e'
+                <text transform='translate(94.62 12.3)' fontSize='16' fill='#73859e'
                 fontFamily='Lato-Regular,Lato'>Generic Users vs Upaid Subscribers</text>
             </svg>
         )

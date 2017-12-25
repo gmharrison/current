@@ -6,6 +6,10 @@
 #cover-image {
   padding: 100px 0 230px 0; }
 
+#wave-2 {
+  background-size: 105%;
+  background-position: center 200px; }
+
 #wave-3 {
   padding: 50px 0 200px 0; }
 
@@ -48,7 +52,10 @@
   border: 1px solid #c1dae5;
   border-radius: 6px; }
   .blue-container.text {
-    padding: 20px; }
+    padding: 20px;
+    position: relative; }
+  .blue-container img {
+    margin-top: 15px; }
 
 .scroll-container {
   width: 100%; }
@@ -62,6 +69,20 @@
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap; }
+
+.ocean-line {
+  height: 250px;
+  border: 0.5px solid #c1dae5;
+  position: absolute;
+  bottom: -250;
+  left: 50px; }
+
+.whale-line {
+  height: 170px;
+  border: 0.5px solid #c1dae5;
+  position: absolute;
+  bottom: -170;
+  left: 50px; }
 
 .title-container {
   position: relative;
@@ -158,8 +179,8 @@ p.white-text {
   .diagram-container > .row {
     margin: -80px -80px 30px -80px; }
 
-@media screen and (max-width: 700px) {
-  p.body-text {
+@media screen and (max-width: 768px) {
+  p {
     font-size: 18px; }
   .title-container > h1 {
     font-size: 30px; }
@@ -169,11 +190,15 @@ p.white-text {
     display: none; }
   .data, .market {
     margin-top: -70px; }
+  #wave-2 {
+    background-position: center 300px; }
   #wave-4 {
     padding: 50px 0;
     background-size: cover; }
   .content .blue-container {
-    width: 70%; } }
+    width: 70%; }
+  .ocean-line, .whale-line {
+    display: none; } }
 
 @media screen and (max-width: 992px) {
   .diagram-container > .row {
