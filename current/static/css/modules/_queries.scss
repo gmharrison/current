@@ -1,3 +1,16 @@
+@media screen and (max-width: 480px) {
+  #wave-2 {
+    background-size: 112%;
+    background-position: center 500px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #wave-2 {
+    background-position: center 300px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   p {
     font-size: 18px;
@@ -17,10 +30,6 @@
 
   .data, .market {
     margin-top: -70px;
-  }
-
-  #wave-2 {
-    background-position: center 300px;
   }
 
   #wave-4 {
