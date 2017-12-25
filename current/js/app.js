@@ -305,12 +305,12 @@ export class Sources extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                            <div className="col-md-6 col-sm-6 col-xs-6">
+                            <div className="col-md-6 col-sm-6 col-xs-10 col-xs-offset-1">
                                 <div className="blue-container">
                                     <a href="https://www.youtube.com/watch?v=8U8Iku1Ov2Q" target="_blank">Jimmy Iovine Interview</a>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-6 col-xs-6">
+                            <div className="col-md-6 col-sm-6 col-xs-10 col-xs-offset-1">
                                 <div className="blue-container">
                                     <a href="https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp" target="_blank">
                                         How Does Spotify Make Money?
@@ -321,14 +321,14 @@ export class Sources extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                            <div className="col-md-6 col-sm-6 col-xs-6">
+                            <div className="col-md-6 col-sm-6 col-xs-10 col-xs-offset-1">
                                 <div className="blue-container">
                                     <a href="https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth" target="_blank">
                                         The Music Industry Is Finally Making Money on Streaming
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-6 col-xs-6">
+                            <div className="col-md-6 col-sm-6 col-xs-10 col-xs-offset-1">
                                 <div className="blue-container">
                                     <a href="https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699" target="_blank">
                                         Streaming Music Services, From Most Screwed to Least Screwed

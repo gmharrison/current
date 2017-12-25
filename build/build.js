@@ -22696,7 +22696,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                             { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-6' },
+                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
@@ -22709,7 +22709,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-6' },
+                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
@@ -22730,7 +22730,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                             { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-6' },
+                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
@@ -22743,7 +22743,7 @@ var Sources = exports.Sources = function (_React$Component9) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-6' },
+                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'blue-container' },
