@@ -173,6 +173,15 @@ p.white-text {
 .sources .blue-container {
   text-align: center; }
 
+.market .blue-container > h4 {
+  text-align: center;
+  color: #73859e; }
+
+.footnote {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 15px; }
+
 .diagram-container {
   position: relative;
   margin-top: 30px; }
@@ -189,7 +198,7 @@ p.white-text {
     background-position: center 300px; } }
 
 @media screen and (max-width: 768px) {
-  p {
+  p.body-text, p.white-text {
     font-size: 18px; }
   .title-container > h1 {
     font-size: 30px; }

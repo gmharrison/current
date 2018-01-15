@@ -46,7 +46,35 @@ module.exports = {
                   }
                 },
               ]
-            },
+            }, {
+                test: /\.(jpe?g|png|gif)$/,
+                use: [
+                {
+                  loader: 'file-loader',
+                  options: {
+                    query: {
+                      name:'webpack_bundles/img/[name].[ext]'
+                    }
+                  }
+                },
+                {
+                  loader: 'image-webpack-loader',
+                  options: {
+                    query: {
+                      mozjpeg: {
+                        progressive: true,
+                      },
+                      gifsicle: {
+                        interlaced: true,
+                      },
+                      optipng: {
+                        optimizationLevel: 7,
+                      },
+                        name:'/img/[name].[ext]'
+                    }
+                  }
+                }],
+            }
         ]
     },
     output: {

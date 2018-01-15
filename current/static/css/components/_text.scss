@@ -109,3 +109,14 @@ p.white-text{
 .sources .blue-container {
   text-align: center;
 }
+
+.market .blue-container > h4 {
+  text-align: center;
+  color: $dark-gray;
+}
+
+.footnote {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 15px;
+}

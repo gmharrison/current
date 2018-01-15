@@ -113,8 +113,6 @@ export class FirstChart extends React.Component {
                     <tspan x='7.18' y='0' letterSpacing='-.021em'>D</tspan>
                     <tspan x='13.03' y='0'>AL</tspan>
                 </text>
-                <text transform='translate(94.62 12.3)' fontSize='16' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>Generic Users vs Upaid Subscribers</text>
             </svg>
         )
     }
@@ -123,80 +121,150 @@ export class FirstChart extends React.Component {
 export class SecondChart extends React.Component {
     render() {
         return (
-            <svg id='Layer_1' viewBox='0 0 361.89 328.76'>
-                <text transform='translate(67.01 10.3)' fontSize='12' fill='#73859e' fontFamily='Lato-Regular,Lato'>2016 vs 2015 Change in Music Consumption</text>
-                <line x1='172.13' y1='37.3'
-                x2='172.13' y2='319.3' fill='none' stroke='#869ab7' strokeMiterlimit='10'
-                strokeWidth='.5' />
-                <line x1='.13' y1='73.3' x2='360.13' y2='73.3' fill='none' stroke='#869ab7'
-                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
-                <line x1='.13' y1='115.3' x2='360.13' y2='115.3' fill='none' stroke='#869ab7'
-                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
-                <line x1='.13' y1='157.3' x2='360.13' y2='157.3' fill='none' stroke='#869ab7'
-                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
-                <line x1='.13' y1='199.3' x2='360.13' y2='199.3' fill='none' stroke='#869ab7'
-                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
-                <line x1='.13' y1='241.3' x2='360.13' y2='241.3' fill='none' stroke='#869ab7'
-                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
-                <line x1='.13' y1='283.3' x2='360.13' y2='283.3' fill='none' stroke='#869ab7'
-                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
-                <line x1='171.63' y1='73.3' x2='329.91' y2='73.3' fill='none' stroke='#7ec891'
-                strokeMiterlimit='10' strokeWidth='2' />
-                <path d='M359.86,96.25A2.86,2.86,0,1,0,357,93.39,2.86,2.86,0,0,0,359.86,96.25Z'
-                transform='translate(-30.1 -20.09)' fill='#7ec891' />
-                <line x1='171.63' y1='115.3' x2='193.41' y2='115.3' fill='none' stroke='#7ec891'
-                strokeMiterlimit='10' strokeWidth='2' />
-                <path d='M223.36,138.25a2.86,2.86,0,1,0-2.85-2.86A2.86,2.86,0,0,0,223.36,138.25Z'
-                transform='translate(-30.1 -20.09)' fill='#7ec891' />
-                <line x1='171.63' y1='156.8' x2='188.41' y2='156.8' fill='none' stroke='#7ec891'
-                strokeMiterlimit='10' strokeWidth='2' />
-                <path d='M218.36,179.75a2.86,2.86,0,1,0-2.85-2.86A2.86,2.86,0,0,0,218.36,179.75Z'
-                transform='translate(-30.1 -20.09)' fill='#7ec891' />
-                <line x1='130.84' y1='199.3' x2='172.63' y2='199.3' fill='none' stroke='#e96578'
-                strokeMiterlimit='10' strokeWidth='2' />
-                <path d='M161.08,222.25a2.86,2.86,0,1,1,2.86-2.86A2.86,2.86,0,0,1,161.08,222.25Z'
-                transform='translate(-30.1 -20.09)' fill='#e96578' />
-                <line x1='143.84' y1='240.8' x2='172.63' y2='240.8' fill='none' stroke='#e96578'
-                strokeMiterlimit='10' strokeWidth='2' />
-                <path d='M174.08,263.75a2.86,2.86,0,1,1,2.86-2.86A2.86,2.86,0,0,1,174.08,263.75Z'
-                transform='translate(-30.1 -20.09)' fill='#e96578' />
-                <line x1='150.84' y1='282.8' x2='172.63' y2='282.8' fill='none' stroke='#e96578'
-                strokeMiterlimit='10' strokeWidth='2' />
-                <path d='M181.08,305.75a2.86,2.86,0,1,1,2.86-2.86A2.86,2.86,0,0,1,181.08,305.75Z'
-                transform='translate(-30.1 -20.09)' fill='#e96578' />
-                <text transform='translate(.46 68.63)' fontSize='8' fill='#73859e' fontFamily='Lato-Regular,Lato'>Audio Streams</text>
-                <text transform='translate(.46 110.97)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>Vi
-                    <tspan x='7.49' y='0' letterSpacing='-.016em'>n</tspan>
-                    <tspan x='11.81' y='0'>yl Album Sales</tspan>
-                </text>
-                <text transform='translate(.46 152.3)' fontSize='8' fill='#73859e' fontFamily='Lato-Regular,Lato'>Video Streams</text>
-                <text transform='translate(.46 194.97)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>Digital Single Sales</text>
-                <text transform='translate(.46 236.97)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>Digital Album Sales</text>
-                <text transform='translate(.46 278.3)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>CD P
-                    <tspan x='17.94' y='0' letterSpacing='-.016em'>h</tspan>
-                    <tspan x='22.26' y='0' letterSpacing='0em'>ysical Sales</tspan>
-                </text>
-                <text transform='translate(277.46 327.3)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>Source: Business Insider</text>
-                <text transform='translate(167.46 29.3)'
-                fontSize='8' fill='#73859e' fontFamily='Lato-Regular,Lato'>0 %</text>
-                <text transform='translate(314.79 64.97)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>+ 76.4%</text>
-                <text transform='translate(177.46 106.63)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>+ 10%</text>
-                <text transform='translate(177.46 149.3)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>+ 7.5%</text>
-                <text transform='translate(116.79 192.3)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>- 25%</text>
-                <text transform='translate(130.46 233.3)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>- 20.1%</text>
-                <text transform='translate(134.46 275.3)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>- 16.3%</text>
-            </svg>
+            <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'
+viewBox='0 0 381.7 375.5'>
+    <defs>
+        <circle id='SVGID_1_' cx='179.7' cy='223.2' r='143.3' />
+    </defs>
+    <clipPath id='SVGID_2_'>
+        <use xlinkHref='#SVGID_1_' overflow='visible' />
+    </clipPath>
+    <polygon points='334.7,293 344.2,274.5 169.2,209.5 184.2,240' clipPath='url(#SVGID_2_)'
+    fill='#44b8dd' />
+    <polygon points='165.7,217.5 332.2,284 338.7,175 298.2,125' clipPath='url(#SVGID_2_)'
+    fill='#99cce1' />
+    <polygon points='163.2,64 201.2,64 176.7,243.5' clipPath='url(#SVGID_2_)'
+    fill='#46a059' />
+    <polygon points='197.7,367.5 173.7,220 323.7,288.5 287.7,353' clipPath='url(#SVGID_2_)'
+    fill='#7cbad3' />
+    <polygon points='169.3,229.8 338.7,109.2 242,69.2 179.3,71.8 178.8,222.3'
+    clipPath='url(#SVGID_2_)' fill='#c2dae4' />
+    <polygon points='174,74.5 178.8,222.4 209.3,379.2 85.3,370.5 22,256.5 35.3,133.2 134,75.2'
+    clipPath='url(#SVGID_2_)' fill='#7ec891' />
+    <text transform='translate(71.102 228.832)'>
+        <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Subscription and</tspan>
+        <tspan x='3.3' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+        fontSize='10'>streaming total</tspan>
+        <tspan x='22.9' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+        fontSize='10'>52.8%</tspan>
+    </text>
+    <text transform='translate(195.314 135.498)'>
+        <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Digital album</tspan>
+        <tspan x='18.2' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+        fontSize='10'>sales</tspan>
+        <tspan x='15.3' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+        fontSize='10'>15.2%</tspan>
+    </text>
+    <g>
+        <text transform='translate(149.176 45.498)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Other digital</tspan>
+            <tspan x='17' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>0.4%</tspan>
+        </text>
+    </g>
+    <g>
+        <text transform='translate(325.557 283.582)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>mobile</tspan>
+            <tspan x='4.1' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>0.7%</tspan>
+        </text>
+    </g>
+    <g>
+        <text transform='translate(230.76 212.498)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Single track sales</tspan>
+            <tspan x='23.5' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>15.7%</tspan>
+        </text>
+    </g>
+    <g>
+        <text transform='translate(205.852 291.165)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>SoundExchange</tspan>
+            <tspan x='7' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>distributions</tspan>
+            <tspan x='21.1' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>15.3%</tspan>
+        </text>
+    </g>
+    <line x1='176.8' y1='83.2' x2='176.2' y2='63.1' fill='#4c5a6c' stroke='#4c5a6c'
+    strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' />
+    <line x1='306.5' y1='278' x2='319.2' y2='283' fill='#4c5a6c' stroke='#4c5a6c'
+    strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' />
+    <g>
+    </g>
+</svg>
+        )
+    }
+}
+
+export class ThirdChart extends React.Component {
+    render () {
+        return (
+            <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'
+viewBox='0 0 414.7 372.5'>
+    <defs>
+        <circle id='SVGID_3_' cx='240.2' cy='212.7' r='143.3' />
+    </defs>
+    <clipPath id='SVGID_4_'>
+        <use xlinkHref='#SVGID_3_' overflow='visible' />
+    </clipPath>
+    <polygon points='78,231 105,115.5 257.5,217.5' clipPath='url(#SVGID_4_)'
+    fill='#46a059' />
+    <polygon points='237.3,225.8 315,71.8 189,55.5 195.3,73.2' clipPath='url(#SVGID_4_)'
+    fill='#99cce1' />
+    <polygon points='392,198.2 238,221.5 242,52.5 367,106.5' clipPath='url(#SVGID_4_)'
+    fill='#7cbad3' />
+    <polygon points='238.7,223.8 208.7,27.5 83.2,152.2 106,132.5 236.4,215.4'
+    clipPath='url(#SVGID_4_)' fill='#c2dae4' />
+    <polygon points='86,189.8 236.4,215.4 393.2,184.8 384.5,308.8 270.5,372.2 147.2,358.8 89.2,260.2'
+    clipPath='url(#SVGID_4_)' fill='#7ec891' />
+    <text transform='translate(185.105 22.089)'>
+        <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Other ad-supported</tspan>
+        <tspan x='21.9' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+        fontSize='10'>streaming</tspan>
+        <tspan x='33.1' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+        fontSize='10'>2.6%</tspan>
+    </text>
+    <g>
+        <text transform='translate(23.354 149.089)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Limited tier paid</tspan>
+            <tspan x='8.6' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>subscription</tspan>
+            <tspan x='24.8' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>5.6%</tspan>
+        </text>
+    </g>
+    <g>
+        <text transform='translate(262.718 148.006)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>SoundExchange</tspan>
+            <tspan x='7' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>distributions</tspan>
+            <tspan x='21.1' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>22.5%</tspan>
+        </text>
+    </g>
+    <g>
+        <text transform='translate(200.56 273.006)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>Paid subscription</tspan>
+            <tspan x='24' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>57.4%</tspan>
+        </text>
+    </g>
+    <g>
+        <text transform='translate(158.064 125.006)'>
+            <tspan x='0' y='0' fill='#4c5a6c' fontFamily='Lato-Regular' fontSize='10'>On-demand</tspan>
+            <tspan x='-3.8' y='12.2' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>streaming ad-</tspan>
+            <tspan x='3.6' y='24.5' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>supported</tspan>
+            <tspan x='12.4' y='36.7' fill='#4c5a6c' fontFamily='Lato-Regular'
+            fontSize='10'>11.9%</tspan>
+        </text>
+    </g>
+    <line x1='229.3' y1='72.8' x2='228.8' y2='52.6' fill='#4c5a6c' stroke='#4c5a6c'
+    strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' />
+    <line x1='96' y1='163.5' x2='110' y2='166.5' fill='#4c5a6c' stroke='#4c5a6c'
+    strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' />
+</svg>
         )
     }
 }

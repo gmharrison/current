@@ -1266,7 +1266,7 @@ var CallbackQueue = __webpack_require__(61);
 var PooledClass = __webpack_require__(15);
 var ReactFeatureFlags = __webpack_require__(62);
 var ReactReconciler = __webpack_require__(18);
-var Transaction = __webpack_require__(27);
+var Transaction = __webpack_require__(28);
 
 var invariant = __webpack_require__(1);
 
@@ -2007,7 +2007,7 @@ var _assign = __webpack_require__(4);
 var ReactCurrentOwner = __webpack_require__(10);
 
 var warning = __webpack_require__(2);
-var canDefineProperty = __webpack_require__(24);
+var canDefineProperty = __webpack_require__(25);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 var REACT_ELEMENT_TYPE = __webpack_require__(52);
@@ -2481,7 +2481,7 @@ var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
   var lowPriorityWarning = __webpack_require__(33);
-  var canDefineProperty = __webpack_require__(24);
+  var canDefineProperty = __webpack_require__(25);
   var ReactElementValidator = __webpack_require__(54);
   var didWarnPropTypesDeprecated = false;
   createElement = ReactElementValidator.createElement;
@@ -2812,7 +2812,7 @@ module.exports = ReactReconciler;
 
 
 var DOMNamespaces = __webpack_require__(40);
-var setInnerHTML = __webpack_require__(29);
+var setInnerHTML = __webpack_require__(30);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(41);
 var setTextContent = __webpack_require__(66);
@@ -3072,7 +3072,7 @@ module.exports = EventPropagators;
 
 var _prodInvariant = __webpack_require__(3);
 
-var EventPluginRegistry = __webpack_require__(26);
+var EventPluginRegistry = __webpack_require__(27);
 var EventPluginUtils = __webpack_require__(34);
 var ReactErrorUtils = __webpack_require__(35);
 
@@ -3449,6 +3449,16 @@ module.exports = ReactInstanceMap;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+module.exports = __webpack_require__(16);
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -3475,7 +3485,7 @@ module.exports = canDefineProperty;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3499,7 +3509,7 @@ module.exports = emptyObject;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3756,7 +3766,7 @@ module.exports = EventPluginRegistry;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3988,7 +3998,7 @@ module.exports = TransactionImpl;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4063,7 +4073,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 module.exports = SyntheticMouseEvent;
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4164,7 +4174,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setInnerHTML;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4289,7 +4299,7 @@ function escapeTextContentForBrowser(text) {
 module.exports = escapeTextContentForBrowser;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4305,7 +4315,7 @@ module.exports = escapeTextContentForBrowser;
 
 var _assign = __webpack_require__(4);
 
-var EventPluginRegistry = __webpack_require__(26);
+var EventPluginRegistry = __webpack_require__(27);
 var ReactEventEmitterMixin = __webpack_require__(133);
 var ViewportMetrics = __webpack_require__(65);
 
@@ -4614,16 +4624,6 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 });
 
 module.exports = ReactBrowserEventEmitter;
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = __webpack_require__(16);
-
 
 /***/ }),
 /* 33 */
@@ -5174,7 +5174,7 @@ var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(8);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(41);
-var setInnerHTML = __webpack_require__(29);
+var setInnerHTML = __webpack_require__(30);
 var setTextContent = __webpack_require__(66);
 
 function getNodeAfter(parentNode, node) {
@@ -6495,8 +6495,8 @@ var _prodInvariant = __webpack_require__(17),
 
 var ReactNoopUpdateQueue = __webpack_require__(51);
 
-var canDefineProperty = __webpack_require__(24);
-var emptyObject = __webpack_require__(25);
+var canDefineProperty = __webpack_require__(25);
+var emptyObject = __webpack_require__(26);
 var invariant = __webpack_require__(1);
 var lowPriorityWarning = __webpack_require__(33);
 
@@ -6816,7 +6816,7 @@ var ReactElement = __webpack_require__(14);
 
 var checkReactTypeSpec = __webpack_require__(88);
 
-var canDefineProperty = __webpack_require__(24);
+var canDefineProperty = __webpack_require__(25);
 var getIteratorFn = __webpack_require__(53);
 var warning = __webpack_require__(2);
 var lowPriorityWarning = __webpack_require__(33);
@@ -7617,8 +7617,8 @@ module.exports = ViewportMetrics;
 
 
 var ExecutionEnvironment = __webpack_require__(6);
-var escapeTextContentForBrowser = __webpack_require__(30);
-var setInnerHTML = __webpack_require__(29);
+var escapeTextContentForBrowser = __webpack_require__(31);
+var setInnerHTML = __webpack_require__(30);
 
 /**
  * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -9038,7 +9038,7 @@ var _prodInvariant = __webpack_require__(3);
 var DOMLazyTree = __webpack_require__(19);
 var DOMProperty = __webpack_require__(13);
 var React = __webpack_require__(16);
-var ReactBrowserEventEmitter = __webpack_require__(31);
+var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactCurrentOwner = __webpack_require__(10);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDOMContainerInfo = __webpack_require__(174);
@@ -9051,10 +9051,10 @@ var ReactReconciler = __webpack_require__(18);
 var ReactUpdateQueue = __webpack_require__(47);
 var ReactUpdates = __webpack_require__(11);
 
-var emptyObject = __webpack_require__(25);
+var emptyObject = __webpack_require__(26);
 var instantiateReactComponent = __webpack_require__(72);
 var invariant = __webpack_require__(1);
-var setInnerHTML = __webpack_require__(29);
+var setInnerHTML = __webpack_require__(30);
 var shouldUpdateReactComponent = __webpack_require__(45);
 var warning = __webpack_require__(2);
 
@@ -9600,7 +9600,7 @@ module.exports = getHostComponentFromComposite;
 "use strict";
 
 
-var _react = __webpack_require__(32);
+var _react = __webpack_require__(24);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9612,7 +9612,7 @@ var _app = __webpack_require__(184);
 
 var _app2 = _interopRequireDefault(_app);
 
-__webpack_require__(187);
+__webpack_require__(194);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11182,7 +11182,7 @@ module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 var _assign = __webpack_require__(4);
 
-var emptyObject = __webpack_require__(25);
+var emptyObject = __webpack_require__(26);
 var _invariant = __webpack_require__(1);
 
 if (process.env.NODE_ENV !== 'production') {
@@ -13996,7 +13996,7 @@ module.exports = DefaultEventPluginOrder;
 
 var EventPropagators = __webpack_require__(20);
 var ReactDOMComponentTree = __webpack_require__(5);
-var SyntheticMouseEvent = __webpack_require__(28);
+var SyntheticMouseEvent = __webpack_require__(29);
 
 var eventTypes = {
   mouseEnter: {
@@ -14782,8 +14782,8 @@ var DOMNamespaces = __webpack_require__(40);
 var DOMProperty = __webpack_require__(13);
 var DOMPropertyOperations = __webpack_require__(69);
 var EventPluginHub = __webpack_require__(21);
-var EventPluginRegistry = __webpack_require__(26);
-var ReactBrowserEventEmitter = __webpack_require__(31);
+var EventPluginRegistry = __webpack_require__(27);
+var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactDOMComponentFlags = __webpack_require__(57);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDOMInput = __webpack_require__(135);
@@ -14795,7 +14795,7 @@ var ReactMultiChild = __webpack_require__(138);
 var ReactServerRenderingTransaction = __webpack_require__(147);
 
 var emptyFunction = __webpack_require__(9);
-var escapeTextContentForBrowser = __webpack_require__(30);
+var escapeTextContentForBrowser = __webpack_require__(31);
 var invariant = __webpack_require__(1);
 var isEventSupported = __webpack_require__(37);
 var shallowEqual = __webpack_require__(44);
@@ -16306,7 +16306,7 @@ module.exports = memoizeStringOnly;
 
 
 
-var escapeTextContentForBrowser = __webpack_require__(30);
+var escapeTextContentForBrowser = __webpack_require__(31);
 
 /**
  * Escapes attribute value to prevent scripting attacks.
@@ -17678,7 +17678,7 @@ if (process.env.NODE_ENV !== 'production') {
   var checkReactTypeSpec = __webpack_require__(141);
 }
 
-var emptyObject = __webpack_require__(25);
+var emptyObject = __webpack_require__(26);
 var invariant = __webpack_require__(1);
 var shallowEqual = __webpack_require__(44);
 var shouldUpdateReactComponent = __webpack_require__(45);
@@ -18860,7 +18860,7 @@ module.exports = flattenChildren;
 var _assign = __webpack_require__(4);
 
 var PooledClass = __webpack_require__(15);
-var Transaction = __webpack_require__(27);
+var Transaction = __webpack_require__(28);
 var ReactInstrumentation = __webpack_require__(8);
 var ReactServerUpdateQueue = __webpack_require__(148);
 
@@ -19304,7 +19304,7 @@ var DOMChildrenOperations = __webpack_require__(39);
 var DOMLazyTree = __webpack_require__(19);
 var ReactDOMComponentTree = __webpack_require__(5);
 
-var escapeTextContentForBrowser = __webpack_require__(30);
+var escapeTextContentForBrowser = __webpack_require__(31);
 var invariant = __webpack_require__(1);
 var validateDOMNesting = __webpack_require__(48);
 
@@ -19466,7 +19466,7 @@ module.exports = ReactDOMTextComponent;
 var _assign = __webpack_require__(4);
 
 var ReactUpdates = __webpack_require__(11);
-var Transaction = __webpack_require__(27);
+var Transaction = __webpack_require__(28);
 
 var emptyFunction = __webpack_require__(9);
 
@@ -19739,7 +19739,7 @@ var EventPluginHub = __webpack_require__(21);
 var EventPluginUtils = __webpack_require__(34);
 var ReactComponentEnvironment = __webpack_require__(43);
 var ReactEmptyComponent = __webpack_require__(74);
-var ReactBrowserEventEmitter = __webpack_require__(31);
+var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactHostComponent = __webpack_require__(75);
 var ReactUpdates = __webpack_require__(11);
 
@@ -19775,10 +19775,10 @@ var _assign = __webpack_require__(4);
 
 var CallbackQueue = __webpack_require__(61);
 var PooledClass = __webpack_require__(15);
-var ReactBrowserEventEmitter = __webpack_require__(31);
+var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactInputSelection = __webpack_require__(78);
 var ReactInstrumentation = __webpack_require__(8);
-var Transaction = __webpack_require__(27);
+var Transaction = __webpack_require__(28);
 var ReactUpdateQueue = __webpack_require__(47);
 
 /**
@@ -20851,7 +20851,7 @@ var SyntheticClipboardEvent = __webpack_require__(166);
 var SyntheticEvent = __webpack_require__(12);
 var SyntheticFocusEvent = __webpack_require__(167);
 var SyntheticKeyboardEvent = __webpack_require__(168);
-var SyntheticMouseEvent = __webpack_require__(28);
+var SyntheticMouseEvent = __webpack_require__(29);
 var SyntheticDragEvent = __webpack_require__(170);
 var SyntheticTouchEvent = __webpack_require__(171);
 var SyntheticTransitionEvent = __webpack_require__(172);
@@ -21394,7 +21394,7 @@ module.exports = getEventKey;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(28);
+var SyntheticMouseEvent = __webpack_require__(29);
 
 /**
  * @interface DragEvent
@@ -21523,7 +21523,7 @@ module.exports = SyntheticTransitionEvent;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(28);
+var SyntheticMouseEvent = __webpack_require__(29);
 
 /**
  * @interface WheelEvent
@@ -21837,7 +21837,7 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 
 
 var DOMProperty = __webpack_require__(13);
-var EventPluginRegistry = __webpack_require__(26);
+var EventPluginRegistry = __webpack_require__(27);
 var ReactComponentTreeHook = __webpack_require__(7);
 
 var warning = __webpack_require__(2);
@@ -22095,7 +22095,7 @@ exports.Sources = exports.Data = exports.UnlockBox = exports.Content = exports.P
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(32);
+var _react = __webpack_require__(24);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22105,31 +22105,31 @@ var _wave = __webpack_require__(186);
 
 var _wave2 = _interopRequireDefault(_wave);
 
-var _wave3 = __webpack_require__(207);
+var _wave3 = __webpack_require__(187);
 
 var _wave4 = _interopRequireDefault(_wave3);
 
-var _wave5 = __webpack_require__(200);
+var _wave5 = __webpack_require__(188);
 
 var _wave6 = _interopRequireDefault(_wave5);
 
-var _wave7 = __webpack_require__(204);
+var _wave7 = __webpack_require__(189);
 
 var _wave8 = _interopRequireDefault(_wave7);
 
-var _whale = __webpack_require__(198);
+var _whale = __webpack_require__(190);
 
 var _whale2 = _interopRequireDefault(_whale);
 
-var _unlock = __webpack_require__(203);
+var _unlock = __webpack_require__(191);
 
 var _unlock2 = _interopRequireDefault(_unlock);
 
-var _unlock3 = __webpack_require__(205);
+var _unlock3 = __webpack_require__(192);
 
 var _unlock4 = _interopRequireDefault(_unlock3);
 
-var _unlock5 = __webpack_require__(206);
+var _unlock5 = __webpack_require__(193);
 
 var _unlock6 = _interopRequireDefault(_unlock5);
 
@@ -22294,6 +22294,11 @@ var Market = exports.Market = function (_React$Component3) {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'blue-container' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'Music Subscription Access'
+                                ),
                                 _react2.default.createElement(_svgs.FirstChart, null)
                             )
                         )
@@ -22307,7 +22312,40 @@ var Market = exports.Market = function (_React$Component3) {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'blue-container' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'The digital music market in the US, 2016'
+                                ),
                                 _react2.default.createElement(_svgs.SecondChart, null)
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'blue-container' },
+                                _react2.default.createElement(
+                                    'h4',
+                                    null,
+                                    'The music streaming market in the US, 2016'
+                                ),
+                                _react2.default.createElement(_svgs.ThirdChart, null)
+                            ),
+                            _react2.default.createElement(
+                                'p',
+                                { className: 'footnote' },
+                                'RIAA Year-End Industry Shipment and Revenue Statistics, via ',
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: 'https://musicbusinessresearch.wordpress.com/2017/05/05/3340/' },
+                                    'musicbusinessresearch.wordpress.com'
+                                )
                             )
                         )
                     )
@@ -22365,7 +22403,7 @@ var Solution = exports.Solution = function (_React$Component4) {
                             'Create a platform that integrates and monetizes all content - asserting its value - by creating a place where artists, producers, and brands can control publishing. Each purchase unlocks (timed) access to more content from that brand, incentivizing app usage, and exposure.  Capitalize on our ability to distribute audio/visual media,editorials, and merchandise through a unified platform. Serves business vertically and horizontally.',
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
-                            'Aggregate brands and the content that they curate to distill each brand into monetized components. Set synergistic and complimentary brands together: The New Yorker on the same platform as The New York Times, Complex Media alongside Vice, and target users appropriately. Cater to consumers desires for options and abundance while avoiding the perceived commitment of subscription, hooking them into a loop of purchases. Serves as a better tool for putting value in each piece of media, and streamlines the experiences for content producers and users alike. Supports data collection, multi-media targeting, increased exposure, evolving into unique experiences for users.'
+                            'Aggregate brands and the content that they curate to distill each brand into monetized components. Set complementary media together: Podcasts with News/Editorials, Albums with Concert streams, Interviews with Video Features.  Can also play similarly with brand synergy: Complex Media alongside Vice and Revolt content, Rapradar with Genius, etc.  Cater to consumers desires for options and abundance while avoiding the perceived commitment of subscription, hooking them into a loop of purchases. Serves as a better tool for putting value in each piece of media, and streamlines the experiences for content producers and users alike. Supports data collection, multi-media targeting, increased exposure, evolving into unique experiences for users.'
                         ),
                         _react2.default.createElement(
                             'div',
@@ -22422,7 +22460,7 @@ var Solution = exports.Solution = function (_React$Component4) {
                                 _react2.default.createElement(
                                     'p',
                                     { className: 'light-text' },
-                                    'Appeal to the \u201Cwhales\u201D: 10% of users make up 70% of in-app purchases, 59% of app revenue in free-to-play model.  More than 80% of mobile app ad revenue is generated by 20% of its users. This 20% of high-value users in the first month continue to drive 67% of revenue in the subsequent month (equating to ~6x more revenue than other users).'
+                                    'Appeal to the \u201Cwhales\u201D: 10% of users make up 70% of in-app purchases, equating to 59% of total revenue of those using a free-to-play model. More than 80% of mobile app ad revenue is generated by 20% of its users. This 20% of high-value users in the first month continue to drive 67% of revenue in the subsequent month (equating to ~6x more revenue than other users).'
                                 ),
                                 _react2.default.createElement('div', { className: 'whale-line' })
                             )
@@ -22696,28 +22734,20 @@ var Sources = exports.Sources = function (_React$Component9) {
                             { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
+                                { className: 'blue-container' },
                                 _react2.default.createElement(
-                                    'div',
-                                    { className: 'blue-container' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: 'https://www.youtube.com/watch?v=8U8Iku1Ov2Q', target: '_blank' },
-                                        'Jimmy Iovine Interview'
-                                    )
+                                    'a',
+                                    { href: 'https://musicbusinessresearch.wordpress.com/2017/05/05/3340/', target: '_blank' },
+                                    'The US Recorded Music Market in a Long-term Perspective, 1990-2016'
                                 )
                             ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
+                                { className: 'blue-container' },
                                 _react2.default.createElement(
-                                    'div',
-                                    { className: 'blue-container' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: 'https://www.investopedia.com/articles/investing/120314/spotify-makes-internet-music-make-money.asp', target: '_blank' },
-                                        'How Does Spotify Make Money?'
-                                    )
+                                    'a',
+                                    { href: 'https://medium.com/tapjoy/the-top-personas-of-free-to-play-mobile-gamers-and-how-to-treat-them-f36cb443e8c4', target: '_blank' },
+                                    'The Top Personas of Free-to-Play Mobile Gamers\u200A\u2014\u200Aand How to Treat Them'
                                 )
                             )
                         )
@@ -22730,28 +22760,11 @@ var Sources = exports.Sources = function (_React$Component9) {
                             { className: 'col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
+                                { className: 'blue-container' },
                                 _react2.default.createElement(
-                                    'div',
-                                    { className: 'blue-container' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: 'https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth', target: '_blank' },
-                                        'The Music Industry Is Finally Making Money on Streaming'
-                                    )
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'col-md-6 col-sm-6 col-xs-10 col-xs-offset-1' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'blue-container' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: 'https://gizmodo.com/streaming-music-services-from-most-screwed-to-least-sc-1793612699', target: '_blank' },
-                                        'Streaming Music Services, From Most Screwed to Least Screwed'
-                                    )
+                                    'a',
+                                    { href: 'https://www.bloomberg.com/news/articles/2016-09-20/spotify-apple-drive-u-s-music-industry-s-8-first-half-growth', target: '_blank' },
+                                    'The Music Industry Is Finally Making Money on Streaming'
                                 )
                             )
                         )
@@ -22774,11 +22787,11 @@ var Sources = exports.Sources = function (_React$Component9) {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Cycle = exports.SecondChart = exports.FirstChart = exports.TopWave = undefined;
+exports.Cycle = exports.ThirdChart = exports.SecondChart = exports.FirstChart = exports.TopWave = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(32);
+var _react = __webpack_require__(24);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23040,12 +23053,6 @@ var FirstChart = exports.FirstChart = function (_React$Component2) {
                         { x: "13.03", y: "0" },
                         "AL"
                     )
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(94.62 12.3)", fontSize: "16", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "Generic Users vs Upaid Subscribers"
                 )
             );
         }
@@ -23068,153 +23075,159 @@ var SecondChart = exports.SecondChart = function (_React$Component3) {
         value: function render() {
             return _react2.default.createElement(
                 "svg",
-                { id: "Layer_1", viewBox: "0 0 361.89 328.76" },
+                { id: "Layer_1", xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink",
+                    viewBox: "0 0 381.7 375.5" },
                 _react2.default.createElement(
-                    "text",
-                    { transform: "translate(67.01 10.3)", fontSize: "12", fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "2016 vs 2015 Change in Music Consumption"
-                ),
-                _react2.default.createElement("line", { x1: "172.13", y1: "37.3",
-                    x2: "172.13", y2: "319.3", fill: "none", stroke: "#869ab7", strokeMiterlimit: "10",
-                    strokeWidth: ".5" }),
-                _react2.default.createElement("line", { x1: ".13", y1: "73.3", x2: "360.13", y2: "73.3", fill: "none", stroke: "#869ab7",
-                    strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: ".25" }),
-                _react2.default.createElement("line", { x1: ".13", y1: "115.3", x2: "360.13", y2: "115.3", fill: "none", stroke: "#869ab7",
-                    strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: ".25" }),
-                _react2.default.createElement("line", { x1: ".13", y1: "157.3", x2: "360.13", y2: "157.3", fill: "none", stroke: "#869ab7",
-                    strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: ".25" }),
-                _react2.default.createElement("line", { x1: ".13", y1: "199.3", x2: "360.13", y2: "199.3", fill: "none", stroke: "#869ab7",
-                    strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: ".25" }),
-                _react2.default.createElement("line", { x1: ".13", y1: "241.3", x2: "360.13", y2: "241.3", fill: "none", stroke: "#869ab7",
-                    strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: ".25" }),
-                _react2.default.createElement("line", { x1: ".13", y1: "283.3", x2: "360.13", y2: "283.3", fill: "none", stroke: "#869ab7",
-                    strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: ".25" }),
-                _react2.default.createElement("line", { x1: "171.63", y1: "73.3", x2: "329.91", y2: "73.3", fill: "none", stroke: "#7ec891",
-                    strokeMiterlimit: "10", strokeWidth: "2" }),
-                _react2.default.createElement("path", { d: "M359.86,96.25A2.86,2.86,0,1,0,357,93.39,2.86,2.86,0,0,0,359.86,96.25Z",
-                    transform: "translate(-30.1 -20.09)", fill: "#7ec891" }),
-                _react2.default.createElement("line", { x1: "171.63", y1: "115.3", x2: "193.41", y2: "115.3", fill: "none", stroke: "#7ec891",
-                    strokeMiterlimit: "10", strokeWidth: "2" }),
-                _react2.default.createElement("path", { d: "M223.36,138.25a2.86,2.86,0,1,0-2.85-2.86A2.86,2.86,0,0,0,223.36,138.25Z",
-                    transform: "translate(-30.1 -20.09)", fill: "#7ec891" }),
-                _react2.default.createElement("line", { x1: "171.63", y1: "156.8", x2: "188.41", y2: "156.8", fill: "none", stroke: "#7ec891",
-                    strokeMiterlimit: "10", strokeWidth: "2" }),
-                _react2.default.createElement("path", { d: "M218.36,179.75a2.86,2.86,0,1,0-2.85-2.86A2.86,2.86,0,0,0,218.36,179.75Z",
-                    transform: "translate(-30.1 -20.09)", fill: "#7ec891" }),
-                _react2.default.createElement("line", { x1: "130.84", y1: "199.3", x2: "172.63", y2: "199.3", fill: "none", stroke: "#e96578",
-                    strokeMiterlimit: "10", strokeWidth: "2" }),
-                _react2.default.createElement("path", { d: "M161.08,222.25a2.86,2.86,0,1,1,2.86-2.86A2.86,2.86,0,0,1,161.08,222.25Z",
-                    transform: "translate(-30.1 -20.09)", fill: "#e96578" }),
-                _react2.default.createElement("line", { x1: "143.84", y1: "240.8", x2: "172.63", y2: "240.8", fill: "none", stroke: "#e96578",
-                    strokeMiterlimit: "10", strokeWidth: "2" }),
-                _react2.default.createElement("path", { d: "M174.08,263.75a2.86,2.86,0,1,1,2.86-2.86A2.86,2.86,0,0,1,174.08,263.75Z",
-                    transform: "translate(-30.1 -20.09)", fill: "#e96578" }),
-                _react2.default.createElement("line", { x1: "150.84", y1: "282.8", x2: "172.63", y2: "282.8", fill: "none", stroke: "#e96578",
-                    strokeMiterlimit: "10", strokeWidth: "2" }),
-                _react2.default.createElement("path", { d: "M181.08,305.75a2.86,2.86,0,1,1,2.86-2.86A2.86,2.86,0,0,1,181.08,305.75Z",
-                    transform: "translate(-30.1 -20.09)", fill: "#e96578" }),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(.46 68.63)", fontSize: "8", fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "Audio Streams"
+                    "defs",
+                    null,
+                    _react2.default.createElement("circle", { id: "SVGID_1_", cx: "179.7", cy: "223.2", r: "143.3" })
                 ),
                 _react2.default.createElement(
+                    "clipPath",
+                    { id: "SVGID_2_" },
+                    _react2.default.createElement("use", { xlinkHref: "#SVGID_1_", overflow: "visible" })
+                ),
+                _react2.default.createElement("polygon", { points: "334.7,293 344.2,274.5 169.2,209.5 184.2,240", clipPath: "url(#SVGID_2_)",
+                    fill: "#44b8dd" }),
+                _react2.default.createElement("polygon", { points: "165.7,217.5 332.2,284 338.7,175 298.2,125", clipPath: "url(#SVGID_2_)",
+                    fill: "#99cce1" }),
+                _react2.default.createElement("polygon", { points: "163.2,64 201.2,64 176.7,243.5", clipPath: "url(#SVGID_2_)",
+                    fill: "#46a059" }),
+                _react2.default.createElement("polygon", { points: "197.7,367.5 173.7,220 323.7,288.5 287.7,353", clipPath: "url(#SVGID_2_)",
+                    fill: "#7cbad3" }),
+                _react2.default.createElement("polygon", { points: "169.3,229.8 338.7,109.2 242,69.2 179.3,71.8 178.8,222.3",
+                    clipPath: "url(#SVGID_2_)", fill: "#c2dae4" }),
+                _react2.default.createElement("polygon", { points: "174,74.5 178.8,222.4 209.3,379.2 85.3,370.5 22,256.5 35.3,133.2 134,75.2",
+                    clipPath: "url(#SVGID_2_)", fill: "#7ec891" }),
+                _react2.default.createElement(
                     "text",
-                    { transform: "translate(.46 110.97)", fontSize: "8",
-                        fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "Vi",
+                    { transform: "translate(71.102 228.832)" },
                     _react2.default.createElement(
                         "tspan",
-                        { x: "7.49", y: "0", letterSpacing: "-.016em" },
-                        "n"
+                        { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                        "Subscription and"
                     ),
                     _react2.default.createElement(
                         "tspan",
-                        { x: "11.81", y: "0" },
-                        "yl Album Sales"
+                        { x: "3.3", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                            fontSize: "10" },
+                        "streaming total"
+                    ),
+                    _react2.default.createElement(
+                        "tspan",
+                        { x: "22.9", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                            fontSize: "10" },
+                        "52.8%"
                     )
                 ),
                 _react2.default.createElement(
                     "text",
-                    { transform: "translate(.46 152.3)", fontSize: "8", fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "Video Streams"
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(.46 194.97)", fontSize: "8",
-                        fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "Digital Single Sales"
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(.46 236.97)", fontSize: "8",
-                        fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "Digital Album Sales"
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(.46 278.3)", fontSize: "8",
-                        fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "CD P",
+                    { transform: "translate(195.314 135.498)" },
                     _react2.default.createElement(
                         "tspan",
-                        { x: "17.94", y: "0", letterSpacing: "-.016em" },
-                        "h"
+                        { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                        "Digital album"
                     ),
                     _react2.default.createElement(
                         "tspan",
-                        { x: "22.26", y: "0", letterSpacing: "0em" },
-                        "ysical Sales"
+                        { x: "18.2", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                            fontSize: "10" },
+                        "sales"
+                    ),
+                    _react2.default.createElement(
+                        "tspan",
+                        { x: "15.3", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                            fontSize: "10" },
+                        "15.2%"
                     )
                 ),
                 _react2.default.createElement(
-                    "text",
-                    { transform: "translate(277.46 327.3)", fontSize: "8", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "Source: Business Insider"
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(149.176 45.498)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "Other digital"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "17", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "0.4%"
+                        )
+                    )
                 ),
                 _react2.default.createElement(
-                    "text",
-                    { transform: "translate(167.46 29.3)",
-                        fontSize: "8", fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "0 %"
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(325.557 283.582)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "mobile"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "4.1", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "0.7%"
+                        )
+                    )
                 ),
                 _react2.default.createElement(
-                    "text",
-                    { transform: "translate(314.79 64.97)", fontSize: "8", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "+ 76.4%"
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(230.76 212.498)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "Single track sales"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "23.5", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "15.7%"
+                        )
+                    )
                 ),
                 _react2.default.createElement(
-                    "text",
-                    { transform: "translate(177.46 106.63)", fontSize: "8",
-                        fill: "#73859e", fontFamily: "Lato-Regular,Lato" },
-                    "+ 10%"
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(205.852 291.165)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "SoundExchange"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "7", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "distributions"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "21.1", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "15.3%"
+                        )
+                    )
                 ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(177.46 149.3)", fontSize: "8", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "+ 7.5%"
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(116.79 192.3)", fontSize: "8", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "- 25%"
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(130.46 233.3)", fontSize: "8", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "- 20.1%"
-                ),
-                _react2.default.createElement(
-                    "text",
-                    { transform: "translate(134.46 275.3)", fontSize: "8", fill: "#73859e",
-                        fontFamily: "Lato-Regular,Lato" },
-                    "- 16.3%"
-                )
+                _react2.default.createElement("line", { x1: "176.8", y1: "83.2", x2: "176.2", y2: "63.1", fill: "#4c5a6c", stroke: "#4c5a6c",
+                    strokeLinecap: "round", strokeLinejoin: "round", strokeMiterlimit: "10" }),
+                _react2.default.createElement("line", { x1: "306.5", y1: "278", x2: "319.2", y2: "283", fill: "#4c5a6c", stroke: "#4c5a6c",
+                    strokeLinecap: "round", strokeLinejoin: "round", strokeMiterlimit: "10" }),
+                _react2.default.createElement("g", null)
             );
         }
     }]);
@@ -23222,8 +23235,176 @@ var SecondChart = exports.SecondChart = function (_React$Component3) {
     return SecondChart;
 }(_react2.default.Component);
 
-var Cycle = exports.Cycle = function (_React$Component4) {
-    _inherits(Cycle, _React$Component4);
+var ThirdChart = exports.ThirdChart = function (_React$Component4) {
+    _inherits(ThirdChart, _React$Component4);
+
+    function ThirdChart() {
+        _classCallCheck(this, ThirdChart);
+
+        return _possibleConstructorReturn(this, (ThirdChart.__proto__ || Object.getPrototypeOf(ThirdChart)).apply(this, arguments));
+    }
+
+    _createClass(ThirdChart, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement(
+                "svg",
+                { id: "Layer_1", xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink",
+                    viewBox: "0 0 414.7 372.5" },
+                _react2.default.createElement(
+                    "defs",
+                    null,
+                    _react2.default.createElement("circle", { id: "SVGID_3_", cx: "240.2", cy: "212.7", r: "143.3" })
+                ),
+                _react2.default.createElement(
+                    "clipPath",
+                    { id: "SVGID_4_" },
+                    _react2.default.createElement("use", { xlinkHref: "#SVGID_3_", overflow: "visible" })
+                ),
+                _react2.default.createElement("polygon", { points: "78,231 105,115.5 257.5,217.5", clipPath: "url(#SVGID_4_)",
+                    fill: "#46a059" }),
+                _react2.default.createElement("polygon", { points: "237.3,225.8 315,71.8 189,55.5 195.3,73.2", clipPath: "url(#SVGID_4_)",
+                    fill: "#99cce1" }),
+                _react2.default.createElement("polygon", { points: "392,198.2 238,221.5 242,52.5 367,106.5", clipPath: "url(#SVGID_4_)",
+                    fill: "#7cbad3" }),
+                _react2.default.createElement("polygon", { points: "238.7,223.8 208.7,27.5 83.2,152.2 106,132.5 236.4,215.4",
+                    clipPath: "url(#SVGID_4_)", fill: "#c2dae4" }),
+                _react2.default.createElement("polygon", { points: "86,189.8 236.4,215.4 393.2,184.8 384.5,308.8 270.5,372.2 147.2,358.8 89.2,260.2",
+                    clipPath: "url(#SVGID_4_)", fill: "#7ec891" }),
+                _react2.default.createElement(
+                    "text",
+                    { transform: "translate(185.105 22.089)" },
+                    _react2.default.createElement(
+                        "tspan",
+                        { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                        "Other ad-supported"
+                    ),
+                    _react2.default.createElement(
+                        "tspan",
+                        { x: "21.9", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                            fontSize: "10" },
+                        "streaming"
+                    ),
+                    _react2.default.createElement(
+                        "tspan",
+                        { x: "33.1", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                            fontSize: "10" },
+                        "2.6%"
+                    )
+                ),
+                _react2.default.createElement(
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(23.354 149.089)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "Limited tier paid"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "8.6", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "subscription"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "24.8", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "5.6%"
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(262.718 148.006)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "SoundExchange"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "7", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "distributions"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "21.1", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "22.5%"
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(200.56 273.006)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "Paid subscription"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "24", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "57.4%"
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    "g",
+                    null,
+                    _react2.default.createElement(
+                        "text",
+                        { transform: "translate(158.064 125.006)" },
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "0", y: "0", fill: "#4c5a6c", fontFamily: "Lato-Regular", fontSize: "10" },
+                            "On-demand"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "-3.8", y: "12.2", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "streaming ad-"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "3.6", y: "24.5", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "supported"
+                        ),
+                        _react2.default.createElement(
+                            "tspan",
+                            { x: "12.4", y: "36.7", fill: "#4c5a6c", fontFamily: "Lato-Regular",
+                                fontSize: "10" },
+                            "11.9%"
+                        )
+                    )
+                ),
+                _react2.default.createElement("line", { x1: "229.3", y1: "72.8", x2: "228.8", y2: "52.6", fill: "#4c5a6c", stroke: "#4c5a6c",
+                    strokeLinecap: "round", strokeLinejoin: "round", strokeMiterlimit: "10" }),
+                _react2.default.createElement("line", { x1: "96", y1: "163.5", x2: "110", y2: "166.5", fill: "#4c5a6c", stroke: "#4c5a6c",
+                    strokeLinecap: "round", strokeLinejoin: "round", strokeMiterlimit: "10" })
+            );
+        }
+    }]);
+
+    return ThirdChart;
+}(_react2.default.Component);
+
+var Cycle = exports.Cycle = function (_React$Component5) {
+    _inherits(Cycle, _React$Component5);
 
     function Cycle() {
         _classCallCheck(this, Cycle);
@@ -23644,22 +23825,24 @@ module.exports = __webpack_require__.p + "03ff970ad99905207d3bbcf5e5b9ff21.svg";
 
 /***/ }),
 /* 187 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+module.exports = __webpack_require__.p + "02742863162cf52f3986469da920bf9f.svg";
 
 /***/ }),
-/* 188 */,
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */
+/* 188 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "338cca2f322f8180657e52c6cc09b042.svg";
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "82095c9040fa3e1311e398e7d35e53a1.svg";
+
+/***/ }),
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23671,7 +23854,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(32);
+var _react = __webpack_require__(24);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23814,43 +23997,28 @@ exports.default = function (_ref) {
 };
 
 /***/ }),
-/* 199 */,
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "338cca2f322f8180657e52c6cc09b042.svg";
-
-/***/ }),
-/* 201 */,
-/* 202 */,
-/* 203 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "458d33784e96a83a0b0cd2dc1d9c9e95.svg";
 
 /***/ }),
-/* 204 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "82095c9040fa3e1311e398e7d35e53a1.svg";
-
-/***/ }),
-/* 205 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "e5615f0d74fd9d378c4e34dc078d8ca2.svg";
 
 /***/ }),
-/* 206 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d941063000af8175358dbc8a175de9b3.svg";
 
 /***/ }),
-/* 207 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 194 */
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "02742863162cf52f3986469da920bf9f.svg";
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

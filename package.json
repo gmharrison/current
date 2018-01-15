@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/gmharrison/current#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "copy-webpack-plugin": "^4.3.0",
     "d3-array": "^1.2.1",
     "d3-axis": "^1.0.8",
