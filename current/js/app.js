@@ -19,7 +19,7 @@ export const list = [{
     img: Unlock2
     }, {
     id: 3,
-    text: "Sell concert livestreams andfestival merch on the same platform",
+    text: "Sell concert livestreams and festival merch on the same platform",
     img: Unlock3
 }]
 
