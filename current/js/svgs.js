@@ -30,90 +30,94 @@ export class TopWave extends React.Component {
 export class FirstChart extends React.Component {
     render () {
         return (
-            <svg id='Layer_1' viewBox='0 0 442.36 324.42'>
-                <g opacity='.66' fill='none' stroke='#869ab7' strokeLinecap='round' strokeLinejoin='round'
-                strokeWidth='.25'>
-                    <line x1='54.07' y1='282.8' x2='426.07' y2='282.8' />
-                    <line x1='54.07' y1='253.17' x2='426.07' y2='253.17' />
-                    <line x1='54.07' y1='223.55' x2='426.07' y2='223.55' />
-                    <line x1='54.07' y1='193.92' x2='426.07' y2='193.92' />
-                    <line x1='54.07' y1='164.3' x2='426.07' y2='164.3' />
-                    <line x1='54.07' y1='134.67' x2='426.07' y2='134.67' />
-                    <line x1='54.07' y1='105.05' x2='426.07' y2='105.05' />
-                    <line x1='54.07' y1='75.42' x2='426.07' y2='75.42' />
-                    <line x1='54.07' y1='45.8' x2='355.74' y2='45.8' />
-                </g>
-                <rect x='310.74' y='52.62' width='9.33' height='255.01' fill='#c2dae4'
-                />
-                <rect x='252.04' y='190.86' width='9.33' height='116.77' fill='#c2dae4'
-                />
-                <rect x='261.43' y='302.59' width='9.33' height='5.04' fill='#7ec891'
-                />
-                <rect x='364.74' y='305.2' width='9.33' height='2.43' fill='#7ec891' />
-                <rect x='90.07' y='102.25' width='9.33' height='205.39' fill='#c2dae4'
-                />
-                <rect x='99.4' y='222.2' width='9.33' height='85.43' fill='#7ec891' />
-                <rect x='148.74' y='268.33' width='9.33' height='39.3' fill='#7ec891'
-                />
-                <rect x='202.74' y='297.56' width='9.33' height='10.07' fill='#7ec891'
-                />
-                <text transform='rotate(-90 113.585 105.005)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>MILLIONS OF USERS</text>
-                <text transform='translate(35.2 285.63)' fontSize='10'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>20</text>
-                <text transform='translate(35.2 256.13)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>40</text>
-                <text transform='translate(35.2 226.63)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>60</text>
-                <text transform='translate(35.2 197.13)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>80</text>
-                <text transform='translate(29.4 167.63)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>100</text>
-                <text transform='translate(29.4 138.13)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>120</text>
-                <text transform='translate(29.4 108.63)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>140</text>
-                <text transform='translate(29.4 79.13)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>160</text>
-                <text transform='translate(29.4 49.63)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>180</text>
-                <line x1='54.07' y1='307.63' x2='426.07' y2='307.63' fill='none'
-                stroke='#869ab7' strokeMiterlimit='10' strokeWidth='.5' />
-                <rect x='374.07' y='25.63' width='9.33' height='9.33' fill='#72a3c0' opacity='.26'
-                />
-                <text transform='translate(392.07 34.3)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>Users</text>
-                <rect x='374.07' y='43.63' width='9.33' height='9.33' fill='#7ec891'
-                />
-                <text transform='translate(392.07 52.3)' fontSize='10' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>
-                    <tspan letterSpacing='-.025em'>P</tspan>
-                    <tspan x='5.86' y='0' letterSpacing='-.016em'>a</tspan>
-                    <tspan x='10.77' y='0'>ying</tspan>
-                    <tspan x='0' y='12.24'>subscribers</tspan>
-                </text>
-                <text transform='translate(85.4 322.96)' fontSize='8' fill='#73859e' fontFamily='Lato-Regular,Lato'>Spotify</text>
-                <text transform='translate(130.18 322.97)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>Apple Music</text>
-                <text transform='translate(186.36 322.96)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato' letterSpacing='-.08em'>Y
-                    <tspan x='4.39' y='0' letterSpacing='0em'>outube Red</tspan>
-                </text>
-                <text transform='translate(245.45 322.96)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>
-                    <tspan letterSpacing='-.025em'>P</tspan>
-                    <tspan x='4.69' y='0' letterSpacing='0em'>ando</tspan>
-                    <tspan x='22.11' y='0' letterSpacing='-.019em'>r</tspan>
-                    <tspan x='25.18' y='0'>a</tspan>
-                </text>
-                <text transform='translate(297.47 322.96)' fontSize='8' fill='#73859e'
-                fontFamily='Lato-Regular,Lato'>Soundcloud</text>
-                <text transform='translate(360.78 322.97)' fontSize='8'
-                fill='#73859e' fontFamily='Lato-Regular,Lato'>TI
-                    <tspan x='7.18' y='0' letterSpacing='-.021em'>D</tspan>
-                    <tspan x='13.03' y='0'>AL</tspan>
-                </text>
-            </svg>
+            <svg id='Layer_1' dataName='Layer 1' xmlns='http://www.w3.org/2000/svg'
+viewBox='0 -40 447.62 389.46'>
+    <g opacity='.66' fill='none' stroke='#869ab7' strokeLinecap='round' strokeLinejoin='round'
+    strokeWidth='.25'>
+        <line x1='58.24' y1='260.38' x2='427.14' y2='260.38' />
+        <line x1='58.24' y1='228.47' x2='427.14' y2='228.47' />
+        <line x1='58.24' y1='196.56' x2='427.14' y2='196.56' />
+        <line x1='58.24' y1='164.66' x2='427.14' y2='164.66' />
+        <line x1='58.24' y1='132.75' x2='427.14' y2='132.75' />
+        <line x1='58.24' y1='100.84' x2='427.14' y2='100.84' />
+        <line x1='58.24' y1='68.93' x2='427.14' y2='68.93' />
+        <line x1='58.24' y1='37.02' x2='427.14' y2='37.02' />
+        <line x1='58.24' y1='5.11' x2='427.5' y2='5.11' />
+    </g>
+    <rect x='334.69' y='12.46' width='10.05' height='274.67' fill='#c2dae4'
+    />
+    <rect x='271.47' y='161.36' width='10.05' height='125.77' fill='#c2dae4'
+    />
+    <rect x='281.58' y='281.7' width='10.05' height='5.43' fill='#7ec891'
+    />
+    <rect x='392.85' y='284.51' width='10.05' height='2.62' fill='#7ec891'
+    />
+    <rect x='97.01' y='65.91' width='10.05' height='221.21' fill='#c2dae4'
+    />
+    <rect x='107.06' y='195.12' width='10.05' height='92.01' fill='#7ec891'
+    />
+    <rect x='160.2' y='244.8' width='10.05' height='42.33' fill='#7ec891'
+    />
+    <rect x='218.36' y='276.28' width='10.05' height='10.85' fill='#7ec891'
+    />
+    <text transform='rotate(-90 100.23 90.99)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>MILLIONS OF USERS</text>
+    <text transform='translate(37.92 263.43)' fontSize='10.771'
+    fill='#73859e' fontFamily='Lato-Regular,Lato'>20</text>
+    <text transform='translate(37.92 231.66)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>40</text>
+    <text transform='translate(37.92 199.89)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>60</text>
+    <text transform='translate(37.92 168.11)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>80</text>
+    <text transform='translate(31.67 136.34)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>100</text>
+    <text transform='translate(31.67 104.56)' fontSize='10.771'
+    fill='#73859e' fontFamily='Lato-Regular,Lato'>120</text>
+    <text transform='translate(31.67 72.79)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>140</text>
+    <text transform='translate(31.67 41.02)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>160</text>
+    <text transform='translate(31.67 9.24)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>180</text>
+    <line x1='58.24' y1='287.13' x2='427.14' y2='287.13' fill='none'
+    stroke='#869ab7' strokeMiterlimit='10' strokeWidth='.5' />
+    <rect x='172.77' y='320.16' width='10.05' height='10.05' fill='#72a3c0'
+    opacity='.26' />
+    <text transform='translate(192.15 329.49)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>Users</text>
+    <rect x='239.19' y='320.16' width='10.05' height='10.05' fill='#7ec891'
+    />
+    <text transform='translate(258.57 329.49)' fontSize='10.771' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>
+        <tspan letterSpacing='-.025em'>P</tspan>
+        <tspan x='6.31' y='0' letterSpacing='-.016em'>a</tspan>
+        <tspan x='11.6' y='0'>ying subscribers</tspan>
+    </text>
+    <text transform='translate(91.99 303.64)' fontSize='8.617' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>Spotify</text>
+    <text transform='translate(140.21 303.64)' fontSize='8.617'
+    fill='#73859e' fontFamily='Lato-Regular,Lato'>Apple Music</text>
+    <text transform='translate(200.73 303.64)' fontSize='8.617'
+    fill='#73859e' fontFamily='Lato-Regular,Lato'>
+        <tspan letterSpacing='-.08em'>Y</tspan>
+        <tspan x='4.73' y='0'>outube Red</tspan>
+    </text>
+    <text transform='translate(264.37 303.64)' fontSize='8.617' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>
+        <tspan letterSpacing='-.025em'>P</tspan>
+        <tspan x='5.05' y='0' letterSpacing='0em'>ando</tspan>
+        <tspan x='23.82' y='0' letterSpacing='-.019em'>r</tspan>
+        <tspan x='27.13' y='0'>a</tspan>
+    </text>
+    <text transform='translate(320.39 303.64)' fontSize='8.617' fill='#73859e'
+    fontFamily='Lato-Regular,Lato'>Soundcloud</text>
+    <text transform='translate(388.59 303.64)' fontSize='8.617'
+    fill='#73859e' fontFamily='Lato-Regular,Lato'>TI
+        <tspan x='7.73' y='0' letterSpacing='-.021em'>D</tspan>
+        <tspan x='14.04' y='0'>AL</tspan>
+    </text>
+</svg>
         )
     }
 }
@@ -122,7 +126,7 @@ export class SecondChart extends React.Component {
     render() {
         return (
             <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'
-viewBox='0 0 381.7 375.5'>
+viewBox='0 20 398.7 355.5'>
     <defs>
         <circle id='SVGID_1_' cx='179.7' cy='223.2' r='143.3' />
     </defs>
@@ -265,6 +269,485 @@ viewBox='0 0 414.7 372.5'>
     <line x1='96' y1='163.5' x2='110' y2='166.5' fill='#4c5a6c' stroke='#4c5a6c'
     strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' />
 </svg>
+        )
+    }
+}
+
+export class FourthChart extends React.Component {
+    render () {
+        return (
+            <svg id='Layer_1' dataName='Layer 1' xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 1004.25 399.54'>
+                <line x1='1000.65' y1='128.87' x2='91.29' y2='128.87' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='97.82' x2='91.29' y2='97.82' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='66.77' x2='91.29' y2='66.77' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='35.73' x2='91.29' y2='35.73' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='222' x2='91.29' y2='222' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='190.96' x2='91.29' y2='190.96' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='159.91' x2='91.29' y2='159.91' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1000.65' y1='4.68' x2='91.29' y2='4.68' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <text transform='rotate(-90 110.66 66.19)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>
+                    <tspan>MILLIONS US$</tspan>
+                </text>
+                <path d='M1010,184.5l-35,14-67-3-68,1-32,10-68-23-71-54-69-20v171h409S1008.5,186,1010,184.5Z'
+                transform='translate(-20.88 -47.42)' fill='#d4be22' />
+                <path d='M1010,185.5l-35,14-67-3-68,1-32,10-68-23-71-54-69-20v171h409S1008.5,187,1010,185.5Z'
+                transform='translate(-20.88 -47.42)' fill='#7ec891' />
+                <polygon points='547.79 70.08 579.63 61.58 615.13 72.58 645.63 87.08 674.63 106.58 714.13 138.58 781.63 162.58 818.63 161.58 888.63 173.08 955.13 187.58 988.13 201.08 988.13 246.41 642.13 189.58 547.79 70.08'
+                fill='#46a059' />
+                <path d='M126.67,184.17l36-5.34,33.08-18.33,33.58-15L264,112.83l66.67-6L364,111.5l34.67-23.33,34.66-13.34,31.34,4,38,9.34,30.66,17.33,35.34,12,32-5.33,38.66,17.33,31.17,19,29.75,26L737,211.25l32.5,19.5,36.5,14,30.25,3.5,35.5,9.5,33,5.75L943,266.25l66,8.5v25.42H126.67S126.42,183.92,126.67,184.17Z'
+                transform='translate(-20.88 -47.42)' fill='#99cce1' />
+                <path d='M126.67,236.83l33.33,10,35-3.66,33.67,2.66,34.66-1,32.34,10.34,67.66,9.33,35.67.67,33,8,33,10.33,69.33,8.33,66.34-2,35.33.34,33,3.33,34.33-.67L738,296.5l167.33-.67,69.67-3,34-.66v7.33l-882.33,1S127,236.5,126.67,236.83Z'
+                transform='translate(-20.88 -47.42)' fill='#63b4d2' />
+                <polygon points='105.79 192.41 135.79 200.41 175.79 198.41 208.46 201.75 241.79 201.41 275.13 211.75 339.79 221.75 376.13 225.75 407.79 230.41 439.79 237.41 523.46 249.75 584.46 253.08 105.79 247.75 105.79 192.41'
+                fill='#927bb8' />
+                <polygon points='105.79 199.08 138.13 206.08 178.13 204.08 206.13 208.08 244.13 207.08 275.13 217.08 340.13 229.08 377.13 232.08 410.13 236.08 442.13 243.08 511.13 251.08 572.13 253.08 105.79 253.08 105.79 199.08'
+                fill='#0a71b9' />
+                <polygon points='686.13 252.75 765.13 252.41 898.79 249.41 954.13 246.75 988.13 246.41 988.13 252.75 686.13 252.75'
+                fill='#87794d' />
+                <text transform='translate(94.36 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1990</text>
+                <text transform='translate(74.66 256.08)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>0</text>
+                <text transform='translate(74.66 225.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2</text>
+                <text transform='translate(74.66 194.83)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>4</text>
+                <text transform='translate(74.66 163.33)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>6</text>
+                <text transform='translate(74.66 132.08)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>8</text>
+                <text transform='translate(68.86 101.33)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>10</text>
+                <text transform='translate(68.86 70.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>12</text>
+                <text transform='translate(68.86 39.33)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>14</text>
+                <text transform='translate(68.86 8.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>16</text>
+                <text transform='translate(93.3 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>3.452</text>
+                <text transform='translate(97.26 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>172</text>
+                <text transform='translate(97.26 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>358</text>
+                <text transform='translate(93.3 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>3.472</text>
+                <text transform='translate(100.16 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>87</text>
+                <text transform='translate(128.02 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1991</text>
+                <text transform='translate(126.97 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>4.338</text>
+                <text transform='translate(130.93 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>118</text>
+                <text transform='translate(130.93 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>329</text>
+                <text transform='translate(126.97 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>3.020</text>
+                <text transform='translate(133.82 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>29</text>
+                <text transform='translate(162.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1992</text>
+                <text transform='translate(161.63 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>5.327</text>
+                <text transform='translate(165.59 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>157</text>
+                <text transform='translate(165.59 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>410</text>
+                <text transform='translate(161.63 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>3.116</text>
+                <text transform='translate(168.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>14</text>
+                <text transform='translate(196.36 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1993</text>
+                <text transform='translate(195.3 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>6.511</text>
+                <text transform='translate(199.26 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>213</text>
+                <text transform='translate(199.26 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>396</text>
+                <text transform='translate(195.3 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2.916</text>
+                <text transform='translate(202.16 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>11</text>
+                <text transform='translate(230.02 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1994</text>
+                <text transform='translate(228.97 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>8.465</text>
+                <text transform='translate(232.93 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>231</text>
+                <text transform='translate(232.93 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>378</text>
+                <text transform='translate(228.97 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2.976</text>
+                <text transform='translate(235.82 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>18</text>
+                <text transform='translate(263.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1995</text>
+                <text transform='translate(262.63 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>9.377</text>
+                <text transform='translate(266.59 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>220</text>
+                <text transform='translate(266.59 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>394</text>
+                <text transform='translate(262.63 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2.304</text>
+                <text transform='translate(269.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>25</text>
+                <text transform='translate(298.02 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1996</text>
+                <text transform='translate(296.97 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>9.935</text>
+                <text transform='translate(300.93 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>236</text>
+                <text transform='translate(300.93 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>421</text>
+                <text transform='translate(296.97 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1.905</text>
+                <text transform='translate(303.82 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>37</text>
+                <text transform='translate(332.36 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1997</text>
+                <text transform='translate(331.3 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>9.915</text>
+                <text transform='translate(335.26 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>324</text>
+                <text transform='translate(335.26 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>442</text>
+                <text transform='translate(331.3 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1.523</text>
+                <text transform='translate(338.16 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>33</text>
+                <text transform='translate(365.36 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1998</text>
+                <text transform='translate(361.4 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>11.416</text>
+                <text transform='translate(368.26 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>508</text>
+                <text transform='translate(368.26 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>333</text>
+                <text transform='translate(364.3 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1.420</text>
+                <text transform='translate(371.16 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>34</text>
+                <text transform='translate(399.36 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1999</text>
+                <text transform='translate(395.4 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>12.816</text>
+                <text transform='translate(402.26 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>377</text>
+                <text transform='translate(402.26 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>298</text>
+                <text transform='translate(401.2 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>1.62</text>
+                <text transform='translate(405.16 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>32</text>
+                <text transform='translate(433.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2000</text>
+                <text transform='translate(429.73 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>13.215</text>
+                <text transform='translate(436.59 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>282</text>
+                <text transform='translate(436.59 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>174</text>
+                <text transform='translate(436.59 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>626</text>
+                <text transform='translate(439.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>28</text>
+                <text transform='translate(466.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2001</text>
+                <text transform='translate(462.73 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>12.909</text>
+                <text transform='translate(469.59 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>329</text>
+                <text transform='translate(469.59 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>112</text>
+                <text transform='translate(469.59 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>363</text>
+                <text transform='translate(472.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>27</text>
+                <text transform='translate(501.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2002</text>
+                <text transform='translate(497.73 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>12.044</text>
+                <text transform='translate(504.59 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>288</text>
+                <text transform='translate(507.49 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>51</text>
+                <text transform='translate(504.59 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>210</text>
+                <text transform='translate(507.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>21</text>
+                <text transform='translate(535.02 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2003</text>
+                <text transform='translate(531.07 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>11.233</text>
+                <text transform='translate(537.93 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>400</text>
+                <text transform='translate(540.83 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>92</text>
+                <text transform='translate(537.93 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>108</text>
+                <text transform='translate(540.82 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>22</text>
+                <text transform='translate(568.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2004</text>
+                <text transform='translate(564.73 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>11.447</text>
+                <text transform='translate(571.59 312.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>184</text>
+                <text transform='translate(571.59 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>607</text>
+                <text transform='translate(574.49 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>58</text>
+                <text transform='translate(574.49 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>24</text>
+                <text transform='translate(574.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>19</text>
+                <text transform='translate(602.69 264.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>2005</text>
+                <text transform='translate(598.73 328.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>10.520</text>
+                <text transform='translate(605.59 312.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>499</text>
+                <text transform='translate(605.59 296.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>149</text>
+                <text transform='translate(611.39 280.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>5</text>
+                <text transform='translate(605.59 345.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>602</text>
+                <text transform='translate(608.49 361.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>45</text>
+                <text transform='translate(608.49 377.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>13</text>
+                <text transform='translate(608.49 393.92)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>14</text>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(636.69 264.58)'>2006</text>
+                    <text transform='translate(635.63 328.92)'>9.373</text>
+                    <text transform='translate(639.59 312.58)'>857</text>
+                    <text transform='translate(639.59 296.58)'>206</text>
+                    <text transform='translate(642.49 280.58)'>22</text>
+                    <text transform='translate(639.59 345.58)'>451</text>
+                    <text transform='translate(642.49 361.92)'>26</text>
+                    <text transform='translate(645.39 377.92)'>4</text>
+                    <text transform='translate(642.49 393.92)'>16</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(670.36 264.58)'>2007</text>
+                    <text transform='translate(669.3 328.92)'>7.452</text>
+                    <text transform='translate(669.3 312.58)'>1.227</text>
+                    <text transform='translate(673.26 296.58)'>201</text>
+                    <text transform='translate(676.16 280.58)'>31</text>
+                    <text transform='translate(673.26 345.58)'>485</text>
+                    <text transform='translate(676.16 361.92)'>23</text>
+                    <text transform='translate(679.06 377.92)'>3</text>
+                    <text transform='translate(676.16 393.92)'>23</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(704.69 264.58)'>2008</text>
+                    <text transform='translate(703.63 328.92)'>5.471</text>
+                    <text transform='translate(703.63 312.58)'>1.668</text>
+                    <text transform='translate(707.59 296.58)'>221</text>
+                    <text transform='translate(710.49 280.58)'>44</text>
+                    <text transform='translate(707.59 345.58)'>219</text>
+                    <text transform='translate(710.49 361.92)'>11</text>
+                    <text transform='translate(713.39 377.92)'>1</text>
+                    <text transform='translate(710.49 393.92)'>57</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(737.69 264.58)'>2009</text>
+                    <text transform='translate(736.63 328.92)'>4.274</text>
+                    <text transform='translate(736.63 312.58)'>1.984</text>
+                    <text transform='translate(740.59 296.58)'>213</text>
+                    <text transform='translate(743.49 280.58)'>47</text>
+                    <text transform='translate(740.59 345.58)'>218</text>
+                    <text transform='translate(743.49 361.92)'>10</text>
+                    <text transform='translate(743.49 393.92)'>60</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(772.02 264.58)'>2010</text>
+                    <text transform='translate(770.97 328.92)'>3.389</text>
+                    <text transform='translate(770.97 312.58)'>2.190</text>
+                    <text transform='translate(774.93 296.58)'>212</text>
+                    <text transform='translate(777.83 280.58)'>43</text>
+                    <text transform='translate(774.93 345.58)'>178</text>
+                    <text transform='translate(780.72 361.92)'>8</text>
+                    <text transform='translate(777.82 393.92)'>89</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(806.02 264.58)'>2011</text>
+                    <text transform='translate(804.97 328.92)'>3.101</text>
+                    <text transform='translate(804.97 312.58)'>2.593</text>
+                    <text transform='translate(808.93 296.58)'>651</text>
+                    <text transform='translate(811.83 280.58)'>35</text>
+                    <text transform='translate(808.93 345.58)'>151</text>
+                    <text transform='translate(811.83 361.92)'>10</text>
+                    <text transform='translate(808.92 393.92)'>119</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(840.36 264.58)'>2012</text>
+                    <text transform='translate(839.3 328.92)'>2.486</text>
+                    <text transform='translate(839.3 312.58)'>2.828</text>
+                    <text transform='translate(839.3 296.58)'>1.033</text>
+                    <text transform='translate(846.16 280.58)'>35</text>
+                    <text transform='translate(843.26 345.58)'>117</text>
+                    <text transform='translate(849.06 361.92)'>9</text>
+                    <text transform='translate(843.26 393.92)'>161</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(873.69 264.58)'>2013</text>
+                    <text transform='translate(872.63 328.92)'>2.124</text>
+                    <text transform='translate(872.63 312.58)'>2.803</text>
+                    <text transform='translate(872.63 296.58)'>1.439</text>
+                    <text transform='translate(879.49 280.58)'>23</text>
+                    <text transform='translate(876.59 345.58)'>105</text>
+                    <text transform='translate(882.39 361.92)'>6</text>
+                    <text transform='translate(876.59 393.92)'>211</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(907.36 264.58)'>2014</text>
+                    <text transform='translate(906.3 328.92)'>1.833</text>
+                    <text transform='translate(906.3 312.58)'>2.559</text>
+                    <text transform='translate(906.3 296.58)'>1.868</text>
+                    <text transform='translate(913.16 280.58)'>16</text>
+                    <text transform='translate(913.16 345.58)'>91</text>
+                    <text transform='translate(913.16 361.92)'>13</text>
+                    <text transform='translate(910.26 393.92)'>315</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(941.36 264.58)'>2015</text>
+                    <text transform='translate(940.3 328.92)'>1.483</text>
+                    <text transform='translate(940.3 312.58)'>2.285</text>
+                    <text transform='translate(940.3 296.58)'>2.334</text>
+                    <text transform='translate(947.16 280.58)'>10</text>
+                    <text transform='translate(947.16 345.58)'>73</text>
+                    <text transform='translate(947.16 361.92)'>14</text>
+                    <text transform='translate(944.26 393.92)'>415</text>
+                </g>
+                <g fontSize='10' fill='#73859e' fontFamily='Lato-Regular,Lato'>
+                    <text transform='translate(975.36 264.58)'>2016</text>
+                    <text transform='translate(974.3 328.92)'>1.173</text>
+                    <text transform='translate(974.3 312.58)'>1.783</text>
+                    <text transform='translate(974.3 296.58)'>3.933</text>
+                    <text transform='translate(981.16 280.58)'>21</text>
+                    <text transform='translate(981.16 345.58)'>58</text>
+                    <text transform='translate(981.16 361.92)'>10</text>
+                    <text transform='translate(978.26 393.92)'>430</text>
+                </g>
+                <text transform='translate(22.63 280.08)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>other digital</text>
+                <text transform='translate(22.63 296.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>steaming</text>
+                <text transform='translate(22.63 312.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>download</text>
+                <text transform='translate(22.63 328.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>CD album</text>
+                <text transform='translate(22.63 345.58)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>video</text>
+                <text transform='translate(22.63 361.08)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>otherp
+                    <tspan x='29.64' y='0' letterSpacing='-.016em'>h</tspan>
+                    <tspan x='35.04' y='0' letterSpacing='0em'>ysical</tspan>
+                </text>
+                <text transform='translate(22.63 377.58)' fontSize='10' fill='#73859e'
+                fontFamily='Lato-Regular,Lato'>MC album</text>
+                <text transform='translate(22.63 394.08)' fontSize='10'
+                fill='#73859e' fontFamily='Lato-Regular,Lato'>vi
+                    <tspan x='7.68' y='0' letterSpacing='-.016em'>n</tspan>
+                    <tspan x='13.08' y='0'>yl album</tspan>
+                </text>
+                <rect x='89.95' y='253.08' width='914.18' height='146.29' fill='none'
+                stroke='#869ab7' strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25'
+                />
+                <polyline points='1003.65 268.67 0.13 268.67 0.14 399.42 89.96 399.42'
+                fill='none' stroke='#869ab7' strokeLinecap='round' strokeLinejoin='round'
+                strokeWidth='.25' />
+                <line x1='1003.65' y1='285' x2='.13' y2='285' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1003.65' y1='300.67' x2='.13' y2='300.67' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1003.65' y1='317' x2='.13' y2='317' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1003.65' y1='333.67' x2='.13' y2='333.67' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1003.65' y1='349.67' x2='.13' y2='349.67' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1003.65' y1='366' x2='.13' y2='366' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='1003.65' y1='381.67' x2='.13' y2='381.67' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='123.46' y1='253.42' x2='123.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='156.79' y1='253.42' x2='156.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='191.46' y1='253.42' x2='191.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='224.79' y1='253.42' x2='224.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='258.13' y1='253.42' x2='258.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='292.79' y1='253.42' x2='292.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='326.13' y1='253.42' x2='326.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='359.46' y1='253.42' x2='359.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='394.13' y1='253.42' x2='394.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='427.46' y1='253.42' x2='427.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='460.79' y1='253.42' x2='460.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='495.46' y1='253.42' x2='495.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='529.46' y1='253.42' x2='529.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='562.79' y1='253.42' x2='562.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='597.46' y1='253.42' x2='597.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='630.79' y1='253.42' x2='630.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='664.13' y1='253.42' x2='664.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='698.79' y1='253.42' x2='698.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='732.79' y1='253.42' x2='732.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='766.13' y1='253.42' x2='766.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='800.79' y1='253.42' x2='800.79' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='835.13' y1='253.42' x2='835.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='868.46' y1='253.42' x2='868.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='903.13' y1='253.42' x2='903.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='935.46' y1='253.42' x2='935.46' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <line x1='970.13' y1='253.42' x2='970.13' y2='399.08' fill='none' stroke='#869ab7'
+                strokeLinecap='round' strokeLinejoin='round' strokeWidth='.25' />
+                <rect x='7.63' y='272.58' width='10' height='8.5' fill='#d4be29' />
+                <rect x='7.63' y='288.83' width='10' height='8.5' fill='#7ec891' />
+                <rect x='7.63' y='304.33' width='10' height='8.5' fill='#46a059' />
+                <rect x='7.63' y='321.33' width='10' height='8.5' fill='#99cce1' />
+                <rect x='7.63' y='337.33' width='10' height='8.5' fill='#63b4d2' />
+                <rect x='7.63' y='353.33' width='10' height='8.5' fill='#927bb8' />
+                <rect x='7.63' y='369.33' width='10' height='8.5' fill='#0a71b9' />
+                <rect x='7.63' y='385.33' width='10' height='8.5' fill='#87794d' />
+            </svg>
         )
     }
 }

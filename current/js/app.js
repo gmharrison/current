@@ -1,5 +1,5 @@
 import React from 'react';
-import {FirstChart, SecondChart, TopWave, Cycle, ThirdChart} from "./svgs";
+import {FirstChart, SecondChart, TopWave, Cycle, ThirdChart, FourthChart} from "./svgs";
 import Wave from '!file-loader!../static/img/wave.svg'
 import Wave2 from '!file-loader!../static/img/wave2.svg'
 import Wave3 from '!file-loader!../static/img/wave3.svg'
@@ -86,26 +86,34 @@ export class Market extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <div className="scroll-container charts-container">
+                                <div className="flex">
+                                    <div className="blue-container chart">
+                                        <h4>Music Subscription Access</h4>
+                                        <FirstChart/>
+                                    </div>
+                                    <div className="blue-container chart">
+                                        <h4>The music streaming market in the US, 2016</h4>
+                                        <ThirdChart/>
+                                    </div>
+                                    <div className="blue-container chart">
+                                        <h4>The digital music market in the US, 2016</h4>
+                                        <SecondChart/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
                             <div className="blue-container">
-                                <h4>Music Subscription Access</h4>
-                                <FirstChart/>
+                                <h4>The US Recorded Music Market, 1990-2016</h4>
+                                <FourthChart/>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                            <div className="blue-container">
-                                <h4>The digital music market in the US, 2016</h4>
-                                <SecondChart/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                            <div className="blue-container">
-                                <h4>The music streaming market in the US, 2016</h4>
-                                <ThirdChart/>
-                            </div>
                             <p className="footnote">
                                 RIAA Year-End Industry Shipment and Revenue Statistics, via <a href="https://musicbusinessresearch.wordpress.com/2017/05/05/3340/">
                                     musicbusinessresearch.wordpress.com
